@@ -1,0 +1,1 @@
+data=[out:json][timeout:30];(node["amenity"="hospital"](9.90,76.20,10.15,76.40);way["amenity"="hospital"](9.90,76.20,10.15,76.40);node["amenity"="pharmacy"](9.90,76.20,10.15,76.40);node["amenity"="dentist"](9.90,76.20,10.15,76.40););out center;

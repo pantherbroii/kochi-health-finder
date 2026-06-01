@@ -1,0 +1,5402 @@
+[
+  {
+    "id": 1,
+    "name": "Thrikkakara Municipal Co-operative Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kakkanad",
+    "phone": "+91 9400904730;0484 2955310",
+    "lat": 10.01816,
+    "lng": 76.34672
+  },
+  {
+    "id": 2,
+    "name": "Sunrise Hospital, Ernakulam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Vii/528-B & Vii/528-C, Seaport - Airport Road, Kakkanad, Kochi",
+    "phone": "N/A",
+    "lat": 10.0252315,
+    "lng": 76.3388796
+  },
+  {
+    "id": 3,
+    "name": "Neelu Medical",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9637331,
+    "lng": 76.2478659
+  },
+  {
+    "id": 4,
+    "name": "Naliyath Medical Chamber",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9432462,
+    "lng": 76.3741513
+  },
+  {
+    "id": 5,
+    "name": "Nair's Hospital , Kochi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9502203,
+    "lng": 76.3179964
+  },
+  {
+    "id": 6,
+    "name": "P.S. Mission Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Maradu, Cochin",
+    "phone": "N/A",
+    "lat": 9.9377796,
+    "lng": 76.3227155
+  },
+  {
+    "id": 7,
+    "name": "Dr. Joys Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "N.H.47 Bypass, Thykoodam, Vyttila",
+    "phone": "N/A",
+    "lat": 9.9585788,
+    "lng": 76.3192419
+  },
+  {
+    "id": 8,
+    "name": "Varma Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9538555,
+    "lng": 76.3423588
+  },
+  {
+    "id": 9,
+    "name": "Government Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9438728,
+    "lng": 76.349062
+  },
+  {
+    "id": 10,
+    "name": "PNVM Hospital and Research Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Madhava Pharmacy Jn, Kacherippady, Kochi",
+    "phone": "N/A",
+    "lat": 9.9859833,
+    "lng": 76.2814393
+  },
+  {
+    "id": 11,
+    "name": "Al Shifa Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9787245,
+    "lng": 76.2867126
+  },
+  {
+    "id": 12,
+    "name": "Sree Sudheendra Medical Mission Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kacheripady, Chittoor Road",
+    "phone": "N/A",
+    "lat": 9.9849328,
+    "lng": 76.2832964
+  },
+  {
+    "id": 13,
+    "name": "MAJ Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0213004,
+    "lng": 76.3080439
+  },
+  {
+    "id": 14,
+    "name": "Nirmala Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9446102,
+    "lng": 76.3727576
+  },
+  {
+    "id": 15,
+    "name": "Jyothi Medical Shop",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9573258,
+    "lng": 76.2511988
+  },
+  {
+    "id": 16,
+    "name": "Cochin Coperative Medical Shop",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9577151,
+    "lng": 76.2540041
+  },
+  {
+    "id": 17,
+    "name": "Gautham Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "P.B. No. 868, Panayapilly",
+    "phone": "N/A",
+    "lat": 9.9468667,
+    "lng": 76.2560419
+  },
+  {
+    "id": 18,
+    "name": "Laxmi Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Mons. Mathew Kothakathu Road",
+    "phone": "N/A",
+    "lat": 9.9478979,
+    "lng": 76.2558553
+  },
+  {
+    "id": 19,
+    "name": "Madhava Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Banerji Road",
+    "phone": "N/A",
+    "lat": 9.9859862,
+    "lng": 76.2814562
+  },
+  {
+    "id": 20,
+    "name": "Topmost Medical Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.148035,
+    "lng": 76.2454786
+  },
+  {
+    "id": 21,
+    "name": "City Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Mahatma Gandhi Rd, opp. Padma Theatre, Padma Junction, Shenoys, Ernakulam",
+    "phone": "N/A",
+    "lat": 9.9812391,
+    "lng": 76.2834857
+  },
+  {
+    "id": 22,
+    "name": "The Touch Aesthetic Medical Clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Off NH Bypass, Near Gold Souk, Service Road, Ponnurunni,",
+    "phone": "+91-484 234 1117",
+    "lat": 9.9770906,
+    "lng": 76.3170085
+  },
+  {
+    "id": 23,
+    "name": "new medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9979558,
+    "lng": 76.2961038
+  },
+  {
+    "id": 24,
+    "name": "Santhi Clinic And Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Canal Road, North Paravur",
+    "phone": "N/A",
+    "lat": 10.1470025,
+    "lng": 76.2294297
+  },
+  {
+    "id": 25,
+    "name": "paravur medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1486413,
+    "lng": 76.2281526
+  },
+  {
+    "id": 26,
+    "name": "Bharath Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1197771,
+    "lng": 76.3421252
+  },
+  {
+    "id": 27,
+    "name": "Modern Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1487233,
+    "lng": 76.2287489
+  },
+  {
+    "id": 28,
+    "name": "Akshaya Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Near Varkeys Market, Kaloor - Kadavandara Road, Kadavandara",
+    "phone": "N/A",
+    "lat": 9.9690057,
+    "lng": 76.299672
+  },
+  {
+    "id": 29,
+    "name": "Dr Raju's Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Near Power House, Tripunithura Road, Vyttila, Kochi",
+    "phone": "N/A",
+    "lat": 9.9647734,
+    "lng": 76.3191089
+  },
+  {
+    "id": 30,
+    "name": "Carmel Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Aluva - Munnar Road",
+    "phone": "+91 484 2625346, +91 484 2621314, +91 484 2627734, +91 484 2623594",
+    "lat": 10.090557,
+    "lng": 76.3620708
+  },
+  {
+    "id": 31,
+    "name": "Oushadi Ayurveda",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1490725,
+    "lng": 76.2312094
+  },
+  {
+    "id": 32,
+    "name": "AlinaParambil Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1230955,
+    "lng": 76.2454404
+  },
+  {
+    "id": 33,
+    "name": "Sree Krishna Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1007725,
+    "lng": 76.2639283
+  },
+  {
+    "id": 34,
+    "name": "Najath Hospital, Ernakulam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Bridge Road Aluva",
+    "phone": "N/A",
+    "lat": 10.110983,
+    "lng": 76.3515701
+  },
+  {
+    "id": 35,
+    "name": "Mazhuvanchery",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1106537,
+    "lng": 76.350917
+  },
+  {
+    "id": 36,
+    "name": "Kerala Ayurveda Limited",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1448397,
+    "lng": 76.2318086
+  },
+  {
+    "id": 37,
+    "name": "Sanjeevani Medias",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.149246,
+    "lng": 76.234989
+  },
+  {
+    "id": 38,
+    "name": "Erayil Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0538519,
+    "lng": 76.2925654
+  },
+  {
+    "id": 39,
+    "name": "Vaidaratnam Ayurveda",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1490521,
+    "lng": 76.2331838
+  },
+  {
+    "id": 40,
+    "name": "Prakash Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1488796,
+    "lng": 76.2303523
+  },
+  {
+    "id": 41,
+    "name": "Jesus medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1004443,
+    "lng": 76.264133
+  },
+  {
+    "id": 42,
+    "name": "Nettoor Primary Health Center",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Nettoor PWD Road",
+    "phone": "N/A",
+    "lat": 9.9194425,
+    "lng": 76.3128645
+  },
+  {
+    "id": 43,
+    "name": "Prana Ayurvedic Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Aluva-Perumbavoor Road",
+    "phone": "N/A",
+    "lat": 10.1188241,
+    "lng": 76.3816906
+  },
+  {
+    "id": 44,
+    "name": "Westend Eye Hospitals",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kacheripady, Chittoor Road, Near Vimalalayam",
+    "phone": "+91 9288605411",
+    "lat": 9.9880943,
+    "lng": 76.2827224
+  },
+  {
+    "id": 45,
+    "name": "Avalon Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "ESI Hospital Road",
+    "phone": "N/A",
+    "lat": 9.9920587,
+    "lng": 76.282585
+  },
+  {
+    "id": 46,
+    "name": "GK Ayurvedic",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Chittoor Road",
+    "phone": "N/A",
+    "lat": 10.001012,
+    "lng": 76.2795571
+  },
+  {
+    "id": 47,
+    "name": "nechupadam dental clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9785572,
+    "lng": 76.2762711
+  },
+  {
+    "id": 48,
+    "name": "Geekay Drug House",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.968433,
+    "lng": 76.2876545
+  },
+  {
+    "id": 49,
+    "name": "Mandoli Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.96839,
+    "lng": 76.2877668
+  },
+  {
+    "id": 50,
+    "name": "Soman's Dental Speciality Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9682239,
+    "lng": 76.2877865
+  },
+  {
+    "id": 51,
+    "name": "MG Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9646486,
+    "lng": 76.2873191
+  },
+  {
+    "id": 52,
+    "name": "Dr. Sreedevi's Multi Speciality Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.967661,
+    "lng": 76.3120544
+  },
+  {
+    "id": 53,
+    "name": "Thirunilath Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.968219,
+    "lng": 76.3143843
+  },
+  {
+    "id": 54,
+    "name": "Sri Kripa Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9660336,
+    "lng": 76.288563
+  },
+  {
+    "id": 55,
+    "name": "Modern Medical Stores",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9649503,
+    "lng": 76.2892591
+  },
+  {
+    "id": 56,
+    "name": "Sarathy Ayurveda Clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1093589,
+    "lng": 76.3589857
+  },
+  {
+    "id": 57,
+    "name": "Razal Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9640327,
+    "lng": 76.2467031
+  },
+  {
+    "id": 58,
+    "name": "Govt Ayurveda Hospital ഗവൺമെന്റ് ആയൂർവേദ ആശുപത്രി",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1238777,
+    "lng": 76.3475843
+  },
+  {
+    "id": 59,
+    "name": "Govt Homeo Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0160984,
+    "lng": 76.2888545
+  },
+  {
+    "id": 60,
+    "name": "Giridhar Eye Institute",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Ponneth Temple Road",
+    "phone": "+91-484-4170000",
+    "lat": 9.9641496,
+    "lng": 76.3050675
+  },
+  {
+    "id": 61,
+    "name": "Ephphatha Softech എഫഥാ സ്പീച്ച് ആന്റ് ഹിയറിങ് സെന്റർ",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.006847,
+    "lng": 76.3052486
+  },
+  {
+    "id": 62,
+    "name": "Hospital Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1496144,
+    "lng": 76.2327907
+  },
+  {
+    "id": 63,
+    "name": "Jan Oushadi Store",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1493865,
+    "lng": 76.2322191
+  },
+  {
+    "id": 64,
+    "name": "Highway Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1038531,
+    "lng": 76.2945486
+  },
+  {
+    "id": 65,
+    "name": "Devi Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1310534,
+    "lng": 76.2824483
+  },
+  {
+    "id": 66,
+    "name": "Jacob Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0905064,
+    "lng": 76.3615354
+  },
+  {
+    "id": 67,
+    "name": "Government Ayurvedic Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9242502,
+    "lng": 76.3579443
+  },
+  {
+    "id": 68,
+    "name": "Primary Health Centre Koonammavu",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1011548,
+    "lng": 76.2659238
+  },
+  {
+    "id": 69,
+    "name": "Rajagiri Hospital Emergency Services Entrance",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Rajagiri Hospital Emergengy Services Road",
+    "phone": "+91 484 290 5100",
+    "lat": 10.0876999,
+    "lng": 76.3887934
+  },
+  {
+    "id": 70,
+    "name": "Rajagiri Hospital Main Entrance",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Rajagiri Hospital Access Road",
+    "phone": "+91 484 290 5111",
+    "lat": 10.0878907,
+    "lng": 76.388261
+  },
+  {
+    "id": 71,
+    "name": "Cochin Ariya Vaidya Sala",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Tripunithura, Ernakulam, Kerala",
+    "phone": "N/A",
+    "lat": 9.9696286,
+    "lng": 76.3380557
+  },
+  {
+    "id": 72,
+    "name": "R C M Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Hill Palace Road,Near Railway Over Bridge",
+    "phone": "N/A",
+    "lat": 9.9467902,
+    "lng": 76.3522044
+  },
+  {
+    "id": 73,
+    "name": "Jesus Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Opposite Government Hospital, Karuvelipady, Cochin",
+    "phone": "N/A",
+    "lat": 9.9428842,
+    "lng": 76.2606941
+  },
+  {
+    "id": 74,
+    "name": "Vijaya Institute of Medical Sciences",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kadamdhenu Apartments,Kadavanthra-Kaloor Road Kadavanthra",
+    "phone": "N/A",
+    "lat": 9.9700978,
+    "lng": 76.2991192
+  },
+  {
+    "id": 75,
+    "name": "Ahalia Foundation Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Pottan Street, North Paravur",
+    "phone": "N/A",
+    "lat": 10.1446462,
+    "lng": 76.2262081
+  },
+  {
+    "id": 76,
+    "name": "Jishy Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Mundamveli Road, Mundamveli, Kochi",
+    "phone": "N/A",
+    "lat": 9.9244655,
+    "lng": 76.2558179
+  },
+  {
+    "id": 77,
+    "name": "Silverline Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "353/307 A, KP Vallon Road, Kadavanthara P.O., Kochi",
+    "phone": "N/A",
+    "lat": 9.9653574,
+    "lng": 76.3003696
+  },
+  {
+    "id": 78,
+    "name": "Cimar Cochin Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Cheranaloor Thykkavu Bus Stop, Tippu Sulthan Road, Cheranellore",
+    "phone": "N/A",
+    "lat": 10.0515389,
+    "lng": 76.296743
+  },
+  {
+    "id": 79,
+    "name": "UB Trust Hospital and Diagnostic Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Varapuzha",
+    "phone": "N/A",
+    "lat": 10.0803996,
+    "lng": 76.2704929
+  },
+  {
+    "id": 80,
+    "name": "Vasan Eye Care Hospital, Palarivattom",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "No. 34 / 563, A - 1, Opp. India Vision, Palarivattom, NH Bypass Road, Cochin",
+    "phone": "N/A",
+    "lat": 10.0099874,
+    "lng": 76.3126431
+  },
+  {
+    "id": 81,
+    "name": "Paul's Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Vattekkattu Road, Kaloor, Cochin",
+    "phone": "N/A",
+    "lat": 9.9883115,
+    "lng": 76.2957781
+  },
+  {
+    "id": 82,
+    "name": "Dr. C. K. P Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Aluva",
+    "phone": "N/A",
+    "lat": 10.0999403,
+    "lng": 76.347245
+  },
+  {
+    "id": 83,
+    "name": "Kerala Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Bank Road, Aluva",
+    "phone": "N/A",
+    "lat": 10.1120322,
+    "lng": 76.353815
+  },
+  {
+    "id": 84,
+    "name": "Thrikkakara Grama Panchayat Co-Operative Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kakkanad P.O., Kochi",
+    "phone": "N/A",
+    "lat": 10.0190155,
+    "lng": 76.3436562
+  },
+  {
+    "id": 85,
+    "name": "SD Tata Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Chottanikkara",
+    "phone": "N/A",
+    "lat": 9.9280376,
+    "lng": 76.3912795
+  },
+  {
+    "id": 86,
+    "name": "Focus Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Azad Road, Kaloor",
+    "phone": "N/A",
+    "lat": 9.9942959,
+    "lng": 76.2954314
+  },
+  {
+    "id": 87,
+    "name": "Dr. Noushad's ENT Hospital and Research Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "NH Byepass, AKG Vayanasala Road, Vysali Junction, Vytilla, Cochin",
+    "phone": "N/A",
+    "lat": 9.9869551,
+    "lng": 76.3167563
+  },
+  {
+    "id": 88,
+    "name": "St. Joseph's Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Xii/229, Muttar - Eloor Road, Manjummel, Eloor",
+    "phone": "N/A",
+    "lat": 10.0601909,
+    "lng": 76.3014141
+  },
+  {
+    "id": 89,
+    "name": "Arogyalayam Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Bridge Road,Arogyalayam Junction",
+    "phone": "N/A",
+    "lat": 10.1111192,
+    "lng": 76.3503215
+  },
+  {
+    "id": 90,
+    "name": "Anwar Memorial Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Santhosh Lane,Poorna Nagar",
+    "phone": "N/A",
+    "lat": 10.1083057,
+    "lng": 76.3528917
+  },
+  {
+    "id": 91,
+    "name": "Specialists' Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Opp. North Railway Station, Ernakulam North, Kochi",
+    "phone": "N/A",
+    "lat": 9.9905344,
+    "lng": 76.2860182
+  },
+  {
+    "id": 92,
+    "name": "Punarnava Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Edappally North P.O",
+    "phone": "N/A",
+    "lat": 10.0441967,
+    "lng": 76.2977904
+  },
+  {
+    "id": 93,
+    "name": "Susruta Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "#70, Mavelipuram, Airport Seaport Road,Opposite Olimugal Moique",
+    "phone": "N/A",
+    "lat": 10.0234595,
+    "lng": 76.3410974
+  },
+  {
+    "id": 94,
+    "name": "Government Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kadamakkudy",
+    "phone": "N/A",
+    "lat": 10.0594005,
+    "lng": 76.2478738
+  },
+  {
+    "id": 95,
+    "name": "Sarathy Ayurvedic Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Elanjichuvadu, Elookkara, Muppathadam P.O., Aluva",
+    "phone": "N/A",
+    "lat": 10.1007404,
+    "lng": 76.3231815
+  },
+  {
+    "id": 96,
+    "name": "Chaitanya Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Ernakulam",
+    "phone": "N/A",
+    "lat": 9.9599096,
+    "lng": 76.2903858
+  },
+  {
+    "id": 97,
+    "name": "Fatima Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Cultus Road, Perumpadappu",
+    "phone": "+91-9645909227",
+    "lat": 9.9014932,
+    "lng": 76.275571
+  },
+  {
+    "id": 98,
+    "name": "Aditya Eye Hospital, Ernakulam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Judge Mukku, Thrikkakara, Kochi",
+    "phone": "N/A",
+    "lat": 10.0340046,
+    "lng": 76.3331406
+  },
+  {
+    "id": 99,
+    "name": "Shajy Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "North Paravur",
+    "phone": "N/A",
+    "lat": 10.1471931,
+    "lng": 76.2309853
+  },
+  {
+    "id": 100,
+    "name": "Evershine Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Near Edapally Post Office,Manimala Road,Edapally",
+    "phone": "N/A",
+    "lat": 10.0192427,
+    "lng": 76.3045053
+  },
+  {
+    "id": 101,
+    "name": "Naivedya Ayurvedic Hospital and Research Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Ponnurunni,Vyttila,Kochi",
+    "phone": "N/A",
+    "lat": 9.9809006,
+    "lng": 76.313999
+  },
+  {
+    "id": 102,
+    "name": "Alpha ENT Head and Neck Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Opposite BSNL Microwave Station, Deshabhimani Road, Kaloor",
+    "phone": "N/A",
+    "lat": 10.0032624,
+    "lng": 76.2953791
+  },
+  {
+    "id": 103,
+    "name": "Ayurvaid Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Opposite Reliance Fresh, K.P. Vallon Road",
+    "phone": "N/A",
+    "lat": 9.9634535,
+    "lng": 76.3010952
+  },
+  {
+    "id": 104,
+    "name": "Orthodontix & More",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9680054,
+    "lng": 76.3011921
+  },
+  {
+    "id": 105,
+    "name": "JP Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9849137,
+    "lng": 76.2760492
+  },
+  {
+    "id": 106,
+    "name": "Govt ayurveda hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1366398,
+    "lng": 76.2322152
+  },
+  {
+    "id": 107,
+    "name": "Teebros",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9719144,
+    "lng": 76.2826131
+  },
+  {
+    "id": 108,
+    "name": "Oriental Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9726031,
+    "lng": 76.2814859
+  },
+  {
+    "id": 109,
+    "name": "Karuna Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "+91 484 236 5445",
+    "lat": 9.9719581,
+    "lng": 76.2829084
+  },
+  {
+    "id": 110,
+    "name": "PG Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9719986,
+    "lng": 76.2829091
+  },
+  {
+    "id": 111,
+    "name": "Thejus Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "+91 484 235 5313",
+    "lat": 9.9719595,
+    "lng": 76.2832611
+  },
+  {
+    "id": 112,
+    "name": "Sevana",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.976563,
+    "lng": 76.277904
+  },
+  {
+    "id": 113,
+    "name": "Devi Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "+91 484 235 6886",
+    "lat": 9.9639126,
+    "lng": 76.2877922
+  },
+  {
+    "id": 114,
+    "name": "Ria Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9640377,
+    "lng": 76.2877259
+  },
+  {
+    "id": 115,
+    "name": "Kariath Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9641097,
+    "lng": 76.2876738
+  },
+  {
+    "id": 116,
+    "name": "Ollapillil Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.963984,
+    "lng": 76.2877464
+  },
+  {
+    "id": 117,
+    "name": "KJ Mampilly Chemist",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9729637,
+    "lng": 76.2813013
+  },
+  {
+    "id": 118,
+    "name": "DDC",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9417653,
+    "lng": 76.3469619
+  },
+  {
+    "id": 119,
+    "name": "Mary Matha Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9682804,
+    "lng": 76.3051767
+  },
+  {
+    "id": 120,
+    "name": "St Thomas Clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9000429,
+    "lng": 76.3965886
+  },
+  {
+    "id": 121,
+    "name": "Mulanthuruthy Government Homoeo Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9011502,
+    "lng": 76.3874512
+  },
+  {
+    "id": 122,
+    "name": "MMC Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9010103,
+    "lng": 76.3843557
+  },
+  {
+    "id": 123,
+    "name": "Vazhakkappillil Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9432905,
+    "lng": 76.3738538
+  },
+  {
+    "id": 124,
+    "name": "Parappilli Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9459339,
+    "lng": 76.3682668
+  },
+  {
+    "id": 125,
+    "name": "Sabu Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.950404,
+    "lng": 76.3648438
+  },
+  {
+    "id": 126,
+    "name": "Ayurvaeda Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9432348,
+    "lng": 76.3738937
+  },
+  {
+    "id": 127,
+    "name": "Karapallil Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9449124,
+    "lng": 76.3475972
+  },
+  {
+    "id": 128,
+    "name": "C.K.K.M Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9458899,
+    "lng": 76.3509128
+  },
+  {
+    "id": 129,
+    "name": "Janananma Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9448426,
+    "lng": 76.3487476
+  },
+  {
+    "id": 130,
+    "name": "Roj Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9269025,
+    "lng": 76.3740779
+  },
+  {
+    "id": 131,
+    "name": "Choice Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9518796,
+    "lng": 76.3600601
+  },
+  {
+    "id": 132,
+    "name": "Georgian Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9513016,
+    "lng": 76.3582593
+  },
+  {
+    "id": 133,
+    "name": "Sevana Medials",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9457833,
+    "lng": 76.3507955
+  },
+  {
+    "id": 134,
+    "name": "Good Life Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.94976,
+    "lng": 76.3637273
+  },
+  {
+    "id": 135,
+    "name": "St. George Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9509685,
+    "lng": 76.3574509
+  },
+  {
+    "id": 136,
+    "name": "Metacare industrial solutions",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9344321,
+    "lng": 76.3530704
+  },
+  {
+    "id": 137,
+    "name": "Rajakala Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9584382,
+    "lng": 76.3582365
+  },
+  {
+    "id": 138,
+    "name": "Pokkattu Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9426864,
+    "lng": 76.346668
+  },
+  {
+    "id": 139,
+    "name": "Mas Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9514195,
+    "lng": 76.358597
+  },
+  {
+    "id": 140,
+    "name": "Sitaram Ayurveda Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9246859,
+    "lng": 76.3597113
+  },
+  {
+    "id": 141,
+    "name": "Amrutanjan Health Care Limited",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.938384,
+    "lng": 76.3301431
+  },
+  {
+    "id": 142,
+    "name": "SMC Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9506143,
+    "lng": 76.3329017
+  },
+  {
+    "id": 143,
+    "name": "Ayyappa Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.952005,
+    "lng": 76.3367405
+  },
+  {
+    "id": 144,
+    "name": "M.D.M Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9506803,
+    "lng": 76.3313255
+  },
+  {
+    "id": 145,
+    "name": "Biju Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9528697,
+    "lng": 76.3401561
+  },
+  {
+    "id": 146,
+    "name": "Neethi Medicals Store",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9487643,
+    "lng": 76.3323935
+  },
+  {
+    "id": 147,
+    "name": "Welso Medicines and Welness Store",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9485422,
+    "lng": 76.3325604
+  },
+  {
+    "id": 148,
+    "name": "Chetana Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9467916,
+    "lng": 76.3331874
+  },
+  {
+    "id": 149,
+    "name": "Neethi Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9462243,
+    "lng": 76.3338623
+  },
+  {
+    "id": 150,
+    "name": "Goverment Ayurveda Hospital Maradu",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9350137,
+    "lng": 76.3273095
+  },
+  {
+    "id": 151,
+    "name": "Kripa Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9414355,
+    "lng": 76.3326386
+  },
+  {
+    "id": 152,
+    "name": "S D Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9360644,
+    "lng": 76.3253324
+  },
+  {
+    "id": 153,
+    "name": "c a hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1291763,
+    "lng": 76.34441
+  },
+  {
+    "id": 154,
+    "name": "Nature Life Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9544308,
+    "lng": 76.3276624
+  },
+  {
+    "id": 155,
+    "name": "St. Joseph Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9674943,
+    "lng": 76.3775641
+  },
+  {
+    "id": 156,
+    "name": "Govt Homeo Dispensary",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9633766,
+    "lng": 76.3581325
+  },
+  {
+    "id": 157,
+    "name": "Sreedevi's Homeo Clinic",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9715132,
+    "lng": 76.3564036
+  },
+  {
+    "id": 158,
+    "name": "Mundassery Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9548416,
+    "lng": 76.3274185
+  },
+  {
+    "id": 159,
+    "name": "Benson Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9687737,
+    "lng": 76.3158535
+  },
+  {
+    "id": 160,
+    "name": "Deepa Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9677528,
+    "lng": 76.3280027
+  },
+  {
+    "id": 161,
+    "name": "Ashwas Community Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9687938,
+    "lng": 76.3175511
+  },
+  {
+    "id": 162,
+    "name": "Bindu Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9686304,
+    "lng": 76.3171365
+  },
+  {
+    "id": 163,
+    "name": "Ayurvedic Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9706156,
+    "lng": 76.3178026
+  },
+  {
+    "id": 164,
+    "name": "New Health Point Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9849468,
+    "lng": 76.3108123
+  },
+  {
+    "id": 165,
+    "name": "Amisha Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9734738,
+    "lng": 76.316017
+  },
+  {
+    "id": 166,
+    "name": "Habees Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9734206,
+    "lng": 76.3160417
+  },
+  {
+    "id": 167,
+    "name": "Samson Medline Acedemy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9791929,
+    "lng": 76.3150531
+  },
+  {
+    "id": 168,
+    "name": "Ojus Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0211303,
+    "lng": 76.3058509
+  },
+  {
+    "id": 169,
+    "name": "Janamithra Medicine and Healthcare",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9968249,
+    "lng": 76.3080112
+  },
+  {
+    "id": 170,
+    "name": "Jeevaniyam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9883939,
+    "lng": 76.3091576
+  },
+  {
+    "id": 171,
+    "name": "C.K.K.M Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0019484,
+    "lng": 76.3065377
+  },
+  {
+    "id": 172,
+    "name": "Sri Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9992133,
+    "lng": 76.313691
+  },
+  {
+    "id": 173,
+    "name": "Eon Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9978642,
+    "lng": 76.3165134
+  },
+  {
+    "id": 174,
+    "name": "Akshaya Community Pharmacy And Healthcare",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0047683,
+    "lng": 76.3049736
+  },
+  {
+    "id": 175,
+    "name": "Gayathri Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0168366,
+    "lng": 76.3015133
+  },
+  {
+    "id": 176,
+    "name": "Shanti Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0159711,
+    "lng": 76.3020428
+  },
+  {
+    "id": 177,
+    "name": "We Cure Medicine",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0217489,
+    "lng": 76.3072393
+  },
+  {
+    "id": 178,
+    "name": "Cee Ess English Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0231485,
+    "lng": 76.3130907
+  },
+  {
+    "id": 179,
+    "name": "Ambalathara Medicines",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0331298,
+    "lng": 76.3132364
+  },
+  {
+    "id": 180,
+    "name": "MAJ Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0214859,
+    "lng": 76.3078027
+  },
+  {
+    "id": 181,
+    "name": "National Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.028192,
+    "lng": 76.3108442
+  },
+  {
+    "id": 182,
+    "name": "Sevana Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0283867,
+    "lng": 76.3105526
+  },
+  {
+    "id": 183,
+    "name": "Puzhakkara Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0493895,
+    "lng": 76.3168968
+  },
+  {
+    "id": 184,
+    "name": "Jacob Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0495861,
+    "lng": 76.3173511
+  },
+  {
+    "id": 185,
+    "name": "Omeozone",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0548667,
+    "lng": 76.3225334
+  },
+  {
+    "id": 186,
+    "name": "Rishi Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1038825,
+    "lng": 76.3502904
+  },
+  {
+    "id": 187,
+    "name": "skin and child clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9233882,
+    "lng": 76.3901726
+  },
+  {
+    "id": 188,
+    "name": "primary health centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0982562,
+    "lng": 76.2058893
+  },
+  {
+    "id": 189,
+    "name": "Kottakal Arya Vaidya Sala",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9333953,
+    "lng": 76.3879899
+  },
+  {
+    "id": 190,
+    "name": "Doctor Issac's Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9721647,
+    "lng": 76.3022313
+  },
+  {
+    "id": 191,
+    "name": "Thalliyakuzhi Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9575777,
+    "lng": 76.3020122
+  },
+  {
+    "id": 192,
+    "name": "Surya Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9450738,
+    "lng": 76.2935799
+  },
+  {
+    "id": 193,
+    "name": "MM Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9436377,
+    "lng": 76.2945296
+  },
+  {
+    "id": 194,
+    "name": "Ben Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9429943,
+    "lng": 76.2946715
+  },
+  {
+    "id": 195,
+    "name": "Roshan Eye Care",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9517542,
+    "lng": 76.3458182
+  },
+  {
+    "id": 196,
+    "name": "V Care Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9571881,
+    "lng": 76.2959175
+  },
+  {
+    "id": 197,
+    "name": "Corporation Homoeo Dispensary",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0352082,
+    "lng": 76.3021539
+  },
+  {
+    "id": 198,
+    "name": "Life Star Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0388108,
+    "lng": 76.2998002
+  },
+  {
+    "id": 199,
+    "name": "Care Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9780728,
+    "lng": 76.295989
+  },
+  {
+    "id": 200,
+    "name": "Vadavuparambil Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0153665,
+    "lng": 76.3018552
+  },
+  {
+    "id": 201,
+    "name": "Government Ayurveda Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "V C Ahammadunni Rd, Veliyathunadu, Kerala",
+    "phone": "N/A",
+    "lat": 10.1428674,
+    "lng": 76.3085503
+  },
+  {
+    "id": 202,
+    "name": "Jan Aushadhi, Chunangamvely",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0871712,
+    "lng": 76.3843082
+  },
+  {
+    "id": 203,
+    "name": "United Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0897702,
+    "lng": 76.396749
+  },
+  {
+    "id": 204,
+    "name": "Drniyaz Nazeer Dentofacial Orthopedics Dental Hospital",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9453893,
+    "lng": 76.2554976
+  },
+  {
+    "id": 205,
+    "name": "Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9447406,
+    "lng": 76.2561923
+  },
+  {
+    "id": 206,
+    "name": "Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9450694,
+    "lng": 76.2591695
+  },
+  {
+    "id": 207,
+    "name": "Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9491532,
+    "lng": 76.2574773
+  },
+  {
+    "id": 208,
+    "name": "clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9356997,
+    "lng": 76.2607303
+  },
+  {
+    "id": 209,
+    "name": "cimar mom's hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0512687,
+    "lng": 76.2962954
+  },
+  {
+    "id": 210,
+    "name": "cimar infertility hospital cheranalloor",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0517171,
+    "lng": 76.2968834
+  },
+  {
+    "id": 211,
+    "name": "Norganaa Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9999476,
+    "lng": 76.3462856
+  },
+  {
+    "id": 212,
+    "name": "Dr. Terry's Dental Solutions",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0171411,
+    "lng": 76.3460282
+  },
+  {
+    "id": 213,
+    "name": "Sahakarana Medical Store Edappally",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.015678,
+    "lng": 76.3025337
+  },
+  {
+    "id": 214,
+    "name": "Paravur Drug Lines",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0427079,
+    "lng": 76.2995582
+  },
+  {
+    "id": 215,
+    "name": "Rural Medical Mission Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Aluva - Paravoor Road, Aluva",
+    "phone": "N/A",
+    "lat": 10.1254188,
+    "lng": 76.3324083
+  },
+  {
+    "id": 216,
+    "name": "Dental Square",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Peringala, Pallikkara",
+    "phone": "N/A",
+    "lat": 10.0055838,
+    "lng": 76.399654
+  },
+  {
+    "id": 217,
+    "name": "Janatha Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Aluva, Kochi",
+    "phone": "N/A",
+    "lat": 10.10672,
+    "lng": 76.350308
+  },
+  {
+    "id": 218,
+    "name": "Dr. Cilil's Modern Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Paravoor",
+    "phone": "N/A",
+    "lat": 10.1490791,
+    "lng": 76.226735
+  },
+  {
+    "id": 219,
+    "name": "Carewell Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Paravur",
+    "phone": "N/A",
+    "lat": 10.1490674,
+    "lng": 76.2345993
+  },
+  {
+    "id": 220,
+    "name": "Minerva Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Peruvaram Road, Pullamkulam Road",
+    "phone": "N/A",
+    "lat": 10.1444234,
+    "lng": 76.2352646
+  },
+  {
+    "id": 221,
+    "name": "Mother Mary Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Ernakulam, Paravur",
+    "phone": "N/A",
+    "lat": 10.141389,
+    "lng": 76.2259474
+  },
+  {
+    "id": 222,
+    "name": "Nirmala Medical Mission Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Peringala, Pallikkara",
+    "phone": "N/A",
+    "lat": 10.0037817,
+    "lng": 76.3976039
+  },
+  {
+    "id": 223,
+    "name": "Dr. Maji's Multispeciality Dental Care",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kodikuthumala, Aluva",
+    "phone": "N/A",
+    "lat": 10.0805864,
+    "lng": 76.3645156
+  },
+  {
+    "id": 224,
+    "name": "Sanjeevanam Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Pallikkara, Kochi",
+    "phone": "N/A",
+    "lat": 10.027905,
+    "lng": 76.388979
+  },
+  {
+    "id": 225,
+    "name": "Lotus Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kadavanthra, Kochi",
+    "phone": "N/A",
+    "lat": 9.9674326,
+    "lng": 76.3012127
+  },
+  {
+    "id": 226,
+    "name": "Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kacheripady, Kochi",
+    "phone": "N/A",
+    "lat": 9.985363,
+    "lng": 76.280843
+  },
+  {
+    "id": 227,
+    "name": "Scientific Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Sahodaran Ayyappan Road, Valanjamblam, Perumanoor",
+    "phone": "N/A",
+    "lat": 9.9646667,
+    "lng": 76.2898325
+  },
+  {
+    "id": 228,
+    "name": "Smile Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Njarackal",
+    "phone": "N/A",
+    "lat": 10.050463,
+    "lng": 76.216219
+  },
+  {
+    "id": 229,
+    "name": "Vathakat Orthopaedic Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "North Kaloor, Kacheripady, Ernakulam",
+    "phone": "N/A",
+    "lat": 9.986819,
+    "lng": 76.285434
+  },
+  {
+    "id": 230,
+    "name": "Dr. Elzas Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Fort Kochi",
+    "phone": "N/A",
+    "lat": 9.965001,
+    "lng": 76.241904
+  },
+  {
+    "id": 231,
+    "name": "Speciality Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Telstar, Ravipuram, Perumanoor, Kochi",
+    "phone": "N/A",
+    "lat": 9.96019,
+    "lng": 76.289054
+  },
+  {
+    "id": 232,
+    "name": "S M Dental Solutions",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "K K Padmanabhan Road, Kacheripady",
+    "phone": "N/A",
+    "lat": 9.9895399,
+    "lng": 76.2798959
+  },
+  {
+    "id": 233,
+    "name": "B & B Memorial Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Thrikkakara, Edappally",
+    "phone": "N/A",
+    "lat": 10.033897,
+    "lng": 76.3294623
+  },
+  {
+    "id": 234,
+    "name": "Evershine Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Manimala Road, Edappally",
+    "phone": "N/A",
+    "lat": 10.0196125,
+    "lng": 76.3046442
+  },
+  {
+    "id": 235,
+    "name": "Urban Primary Health Centre, Chalikkavattom",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Chalikkavattom, Vennala, Kochi",
+    "phone": "N/A",
+    "lat": 9.9824178,
+    "lng": 76.3241707
+  },
+  {
+    "id": 236,
+    "name": "Vypeen Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Pallipuram Road, Ochanthuruth",
+    "phone": "N/A",
+    "lat": 9.9997548,
+    "lng": 76.2350221
+  },
+  {
+    "id": 237,
+    "name": "Dr. Hassan Ayurveda Brain and Spine Super Speciality Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Rajaji Road, Shenoys",
+    "phone": "N/A",
+    "lat": 9.978757,
+    "lng": 76.286691
+  },
+  {
+    "id": 238,
+    "name": "Alife Ayurvedam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Keerthi Nagar, Elamakkara",
+    "phone": "N/A",
+    "lat": 10.0146072,
+    "lng": 76.2933848
+  },
+  {
+    "id": 239,
+    "name": "Futureace Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Nethaji Nagar, Edappally",
+    "phone": "N/A",
+    "lat": 10.0320122,
+    "lng": 76.304213
+  },
+  {
+    "id": 240,
+    "name": "Trident Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Chottanikkara Mulanthuruthy Road, Chottanikkara",
+    "phone": "N/A",
+    "lat": 9.9316457,
+    "lng": 76.3893103
+  },
+  {
+    "id": 241,
+    "name": "Appolo",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kalamassery, Ernakulam",
+    "phone": "N/A",
+    "lat": 10.0632087,
+    "lng": 76.3187175
+  },
+  {
+    "id": 242,
+    "name": "Ahalia Foundation Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Chakkalakkal Junction, Kochi",
+    "phone": "N/A",
+    "lat": 9.9932055,
+    "lng": 76.3146743
+  },
+  {
+    "id": 243,
+    "name": "Shalom Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Moolamkuzhi, Mundamveli",
+    "phone": "N/A",
+    "lat": 9.9368426,
+    "lng": 76.2485958
+  },
+  {
+    "id": 244,
+    "name": "Focus Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Ernakulam South, Kochi",
+    "phone": "N/A",
+    "lat": 9.9689594,
+    "lng": 76.2932547
+  },
+  {
+    "id": 245,
+    "name": "Santhigiri Ayurveda & Siddha Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Iyyattil Junction, Karikkamuri, Ernakulam, Kochi",
+    "phone": "N/A",
+    "lat": 9.9730963,
+    "lng": 76.2860427
+  },
+  {
+    "id": 246,
+    "name": "Palluruthy Government Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Janatha Nagar, Illath Nagar, Palluruthy, Kochi",
+    "phone": "N/A",
+    "lat": 9.9172926,
+    "lng": 76.2792219
+  },
+  {
+    "id": 247,
+    "name": "Metro Mind - Psychiatric Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Rajagiri Road, Rajagiri, Kalamassery, Kochi",
+    "phone": "N/A",
+    "lat": 10.054538,
+    "lng": 76.319607
+  },
+  {
+    "id": 248,
+    "name": "Medall Healthcare",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Vyttila",
+    "phone": "N/A",
+    "lat": 9.9651653,
+    "lng": 76.3156016
+  },
+  {
+    "id": 249,
+    "name": "Arc Fertility Hospitals",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Mamangalam, Palarivattom, Kochi",
+    "phone": "N/A",
+    "lat": 10.0090884,
+    "lng": 76.3034525
+  },
+  {
+    "id": 250,
+    "name": "Park Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0189016,
+    "lng": 76.2894405
+  },
+  {
+    "id": 251,
+    "name": "Punnakal Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0190981,
+    "lng": 76.2907494
+  },
+  {
+    "id": 252,
+    "name": "Kripa Medical",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0381531,
+    "lng": 76.2703642
+  },
+  {
+    "id": 253,
+    "name": "Prasanth Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0345153,
+    "lng": 76.301963
+  },
+  {
+    "id": 254,
+    "name": "C&A Medical Division",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Thaikavu Road",
+    "phone": "+91-9895798680",
+    "lat": 9.9936938,
+    "lng": 76.3205371
+  },
+  {
+    "id": 255,
+    "name": "Karunya Community pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9729704,
+    "lng": 76.280735
+  },
+  {
+    "id": 256,
+    "name": "Prasanth Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9686532,
+    "lng": 76.298231
+  },
+  {
+    "id": 257,
+    "name": "Dental clinic & implant service",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0355568,
+    "lng": 76.3370877
+  },
+  {
+    "id": 258,
+    "name": "Njarakkal Govt. Homoeo Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Vypin - Pallippuram Road",
+    "phone": "+91 484 2497020",
+    "lat": 10.0438538,
+    "lng": 76.217612
+  },
+  {
+    "id": 259,
+    "name": "Government Homoeo Model Dispensary Edakochi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Old NH 47",
+    "phone": "N/A",
+    "lat": 9.9062493,
+    "lng": 76.2950036
+  },
+  {
+    "id": 260,
+    "name": "Nayarambalam Government Homoeo Dispensary",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0712694,
+    "lng": 76.2228464
+  },
+  {
+    "id": 261,
+    "name": "Aleena Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9470226,
+    "lng": 76.3664319
+  },
+  {
+    "id": 262,
+    "name": "Dent 32 Care",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9452776,
+    "lng": 76.3713349
+  },
+  {
+    "id": 263,
+    "name": "Hebin Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0915229,
+    "lng": 76.3174658
+  },
+  {
+    "id": 264,
+    "name": "J J Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0962948,
+    "lng": 76.3176294
+  },
+  {
+    "id": 265,
+    "name": "Aju Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9639646,
+    "lng": 76.2456621
+  },
+  {
+    "id": 266,
+    "name": "chambakkara primary health centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "chambakkara",
+    "phone": "N/A",
+    "lat": 9.9542828,
+    "lng": 76.3289044
+  },
+  {
+    "id": 267,
+    "name": "Ayur Vaidyanath",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Palarivattom - Kakkanad Road",
+    "phone": "+91-7558003331",
+    "lat": 10.0238379,
+    "lng": 76.3412942
+  },
+  {
+    "id": 268,
+    "name": "Daniel's Cosmetic Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9639169,
+    "lng": 76.2455435
+  },
+  {
+    "id": 269,
+    "name": "life care",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9638915,
+    "lng": 76.2455542
+  },
+  {
+    "id": 270,
+    "name": "Facets Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9639844,
+    "lng": 76.2461669
+  },
+  {
+    "id": 271,
+    "name": "Daniel's Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.96408,
+    "lng": 76.2455366
+  },
+  {
+    "id": 272,
+    "name": "Q Life Medicals 3",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0887392,
+    "lng": 76.3646891
+  },
+  {
+    "id": 273,
+    "name": "Jan Aushadhi Kendra Edathala",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0883533,
+    "lng": 76.3662946
+  },
+  {
+    "id": 274,
+    "name": "Mitra Homoeopathy",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Vidya Nagar Road",
+    "phone": "N/A",
+    "lat": 10.0435109,
+    "lng": 76.3232099
+  },
+  {
+    "id": 275,
+    "name": "Santhimadom Pharmaceuticals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1334217,
+    "lng": 76.2385903
+  },
+  {
+    "id": 276,
+    "name": "Community Health Center, Ezhikkara",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.095292,
+    "lng": 76.2342403
+  },
+  {
+    "id": 277,
+    "name": "Primary Health Center, Eloor",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0832761,
+    "lng": 76.2895024
+  },
+  {
+    "id": 278,
+    "name": "Med Serv",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9553641,
+    "lng": 76.3958398
+  },
+  {
+    "id": 279,
+    "name": "Dentofacial Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0481167,
+    "lng": 76.2911855
+  },
+  {
+    "id": 280,
+    "name": "Family Health Centre Eroor",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9784164,
+    "lng": 76.3340708
+  },
+  {
+    "id": 281,
+    "name": "Ayurveda hospital varapuzha",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0751413,
+    "lng": 76.2708801
+  },
+  {
+    "id": 282,
+    "name": "Ayurvedha Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1125591,
+    "lng": 76.2293049
+  },
+  {
+    "id": 283,
+    "name": "Thripunithura Ramavarma Palace Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9336989,
+    "lng": 76.3532833
+  },
+  {
+    "id": 284,
+    "name": "Family Health Centre Alangad",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1099055,
+    "lng": 76.2780318
+  },
+  {
+    "id": 285,
+    "name": "Primary Health Centre Thrikakkara",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0222321,
+    "lng": 76.3166833
+  },
+  {
+    "id": 286,
+    "name": "Cochin Cancer Research Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0534587,
+    "lng": 76.3543132
+  },
+  {
+    "id": 287,
+    "name": "Community Health Centre, Varapuzha",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0566983,
+    "lng": 76.3018712
+  },
+  {
+    "id": 288,
+    "name": "Homeo dispensery",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1422509,
+    "lng": 76.3655286
+  },
+  {
+    "id": 289,
+    "name": "Government Dispensary High Court Ernakulam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0061874,
+    "lng": 76.2849195
+  },
+  {
+    "id": 290,
+    "name": "Thaliyath Dental Clinic ,Varapuzha",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0801281,
+    "lng": 76.2706043
+  },
+  {
+    "id": 291,
+    "name": "East Block, Medical Trust Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9642981,
+    "lng": 76.288373
+  },
+  {
+    "id": 292,
+    "name": "Karikulam Multispeciality Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Malikampeedika",
+    "phone": "N/A",
+    "lat": 10.1271045,
+    "lng": 76.3092953
+  },
+  {
+    "id": 293,
+    "name": "Highway Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Salem-Kochi-Kanyakumari Highway",
+    "phone": "N/A",
+    "lat": 10.0484838,
+    "lng": 76.318717
+  },
+  {
+    "id": 294,
+    "name": "Ahalia Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9933803,
+    "lng": 76.3144506
+  },
+  {
+    "id": 295,
+    "name": "Central Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9635971,
+    "lng": 76.2882896
+  },
+  {
+    "id": 296,
+    "name": "SLG Medical Care",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9704283,
+    "lng": 76.3005477
+  },
+  {
+    "id": 297,
+    "name": "Nayarambalam Primary Health Center",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0572971,
+    "lng": 76.2181225
+  },
+  {
+    "id": 298,
+    "name": "Susrutha Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0558672,
+    "lng": 76.2151066
+  },
+  {
+    "id": 299,
+    "name": "ESI Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0479327,
+    "lng": 76.2202664
+  },
+  {
+    "id": 300,
+    "name": "Jacobs Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9364863,
+    "lng": 76.2555454
+  },
+  {
+    "id": 301,
+    "name": "pearl dental solutions",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1006027,
+    "lng": 76.277563
+  },
+  {
+    "id": 302,
+    "name": "Lakshmi Homeo Clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kadungalloor Road",
+    "phone": "N/A",
+    "lat": 10.1143369,
+    "lng": 76.3330517
+  },
+  {
+    "id": 303,
+    "name": "Sree Krishna Medicals",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1148171,
+    "lng": 76.3302021
+  },
+  {
+    "id": 304,
+    "name": "Mattancherry Government Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9597832,
+    "lng": 76.2598371
+  },
+  {
+    "id": 305,
+    "name": "Jan Aushadhi",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0336894,
+    "lng": 76.2950547
+  },
+  {
+    "id": 306,
+    "name": "Homeo Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1028148,
+    "lng": 76.2501271
+  },
+  {
+    "id": 307,
+    "name": "St Joseph Hospital Manjummel",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0602094,
+    "lng": 76.3013527
+  },
+  {
+    "id": 308,
+    "name": "Dr Basil's Dental Centre",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9559522,
+    "lng": 76.2928146
+  },
+  {
+    "id": 309,
+    "name": "Urban Primary Health Centre, Kuthapady",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9835441,
+    "lng": 76.3139575
+  },
+  {
+    "id": 310,
+    "name": "Urban Primary Health Centre, Ponnurunni",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.979997,
+    "lng": 76.320338
+  },
+  {
+    "id": 311,
+    "name": "Urban Primary Health Centre, Kaloor",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9935425,
+    "lng": 76.2883583
+  },
+  {
+    "id": 312,
+    "name": "Urban Primary Health Centre, Kennadimukku",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0196448,
+    "lng": 76.3169704
+  },
+  {
+    "id": 313,
+    "name": "Urban primary Health Centre, Thammanam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.989758,
+    "lng": 76.3065874
+  },
+  {
+    "id": 314,
+    "name": "Urban Primary Health Cenre, Pandikudy",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9509907,
+    "lng": 76.2494468
+  },
+  {
+    "id": 315,
+    "name": "Urban Primary Health Centre, Chambakkara",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.954131,
+    "lng": 76.3287701
+  },
+  {
+    "id": 316,
+    "name": "Urban Primary Health Centre, Moolamkuzhi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9360022,
+    "lng": 76.2549759
+  },
+  {
+    "id": 317,
+    "name": "Government Medical College, Ernakulam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0527471,
+    "lng": 76.3553898
+  },
+  {
+    "id": 318,
+    "name": "Urban Primary Health Centre, Mangattumukku",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9538492,
+    "lng": 76.2547957
+  },
+  {
+    "id": 319,
+    "name": "Smile Dental",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1441853,
+    "lng": 76.2273856
+  },
+  {
+    "id": 320,
+    "name": "Suresh Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1490566,
+    "lng": 76.2326877
+  },
+  {
+    "id": 321,
+    "name": "Rayan Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1490296,
+    "lng": 76.2324009
+  },
+  {
+    "id": 322,
+    "name": "Neethi Medical Stroe",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1498488,
+    "lng": 76.2346422
+  },
+  {
+    "id": 323,
+    "name": "Beyond Smiles Dental Care",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9257467,
+    "lng": 76.3560779
+  },
+  {
+    "id": 324,
+    "name": "Karthika Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Layam Road",
+    "phone": "N/A",
+    "lat": 9.9467595,
+    "lng": 76.3461157
+  },
+  {
+    "id": 325,
+    "name": "Dr Vasundara Menon",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Layam Road",
+    "phone": "N/A",
+    "lat": 9.9469122,
+    "lng": 76.3461342
+  },
+  {
+    "id": 326,
+    "name": "Amrutha Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Layam Road",
+    "phone": "N/A",
+    "lat": 9.9465204,
+    "lng": 76.3462484
+  },
+  {
+    "id": 327,
+    "name": "Urban Primary Health Centre, Vattekunnam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Vattekunnam",
+    "phone": "N/A",
+    "lat": 10.0402557,
+    "lng": 76.3105798
+  },
+  {
+    "id": 328,
+    "name": "granth",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.063749,
+    "lng": 76.2464597
+  },
+  {
+    "id": 329,
+    "name": "Spectrum Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "M G road",
+    "phone": "N/A",
+    "lat": 9.9659454,
+    "lng": 76.2864045
+  },
+  {
+    "id": 330,
+    "name": "Alappat Drug Store",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0026849,
+    "lng": 76.3068168
+  },
+  {
+    "id": 331,
+    "name": "Govt homeo dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0009723,
+    "lng": 76.2447972
+  },
+  {
+    "id": 332,
+    "name": "Primary health centre vallarpadam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0007893,
+    "lng": 76.245324
+  },
+  {
+    "id": 333,
+    "name": "Smilecraft Dental Care and Implant Centre",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Edappally Pukkattupady Road",
+    "phone": "8606651185",
+    "lat": 10.0273074,
+    "lng": 76.3152392
+  },
+  {
+    "id": 334,
+    "name": "AMJ Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9294302,
+    "lng": 76.2702904
+  },
+  {
+    "id": 335,
+    "name": "Primary Health Centre, Thammanam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9896091,
+    "lng": 76.3067297
+  },
+  {
+    "id": 336,
+    "name": "Cochin Corporation Homeo Dispensery",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9807774,
+    "lng": 76.3201955
+  },
+  {
+    "id": 337,
+    "name": "Family health centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1033088,
+    "lng": 76.3900272
+  },
+  {
+    "id": 338,
+    "name": "Mathews Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9477385,
+    "lng": 76.2926485
+  },
+  {
+    "id": 339,
+    "name": "Divine Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9471072,
+    "lng": 76.2927696
+  },
+  {
+    "id": 340,
+    "name": "Aster Pharmacy",
+    "category": "Pharmacy",
+    "area": "Perumanoor",
+    "address": "Pandit Karuppan Road",
+    "phone": "N/A",
+    "lat": 9.946787,
+    "lng": 76.2929094
+  },
+  {
+    "id": 341,
+    "name": "Sevana Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9490202,
+    "lng": 76.2922906
+  },
+  {
+    "id": 342,
+    "name": "Shipyard Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9487943,
+    "lng": 76.2911323
+  },
+  {
+    "id": 343,
+    "name": "Sandip Drug House",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9496484,
+    "lng": 76.2920818
+  },
+  {
+    "id": 344,
+    "name": "Caps 'n' Crowns Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9499713,
+    "lng": 76.2923994
+  },
+  {
+    "id": 345,
+    "name": "International Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9550759,
+    "lng": 76.2926106
+  },
+  {
+    "id": 346,
+    "name": "Mediland Drug House",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9450262,
+    "lng": 76.3492188
+  },
+  {
+    "id": 347,
+    "name": "Tee Jay Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9450133,
+    "lng": 76.3493053
+  },
+  {
+    "id": 348,
+    "name": "English Medicines",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9974827,
+    "lng": 76.36102
+  },
+  {
+    "id": 349,
+    "name": "Bharat Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9557322,
+    "lng": 76.2952809
+  },
+  {
+    "id": 350,
+    "name": "Kolath Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9625173,
+    "lng": 76.3006593
+  },
+  {
+    "id": 351,
+    "name": "Star Dental",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9600651,
+    "lng": 76.301584
+  },
+  {
+    "id": 352,
+    "name": "Powath Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9589868,
+    "lng": 76.3017099
+  },
+  {
+    "id": 353,
+    "name": "Dr Bobby's",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.957729,
+    "lng": 76.302192
+  },
+  {
+    "id": 354,
+    "name": "Saras Medical Stores",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9544494,
+    "lng": 76.3024928
+  },
+  {
+    "id": 355,
+    "name": "Aster Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9536982,
+    "lng": 76.3023323
+  },
+  {
+    "id": 356,
+    "name": "Smile Zone",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9536997,
+    "lng": 76.3022828
+  },
+  {
+    "id": 357,
+    "name": "Dr Dinu's Dental Care",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9640532,
+    "lng": 76.3005837
+  },
+  {
+    "id": 358,
+    "name": "Med 25",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9640505,
+    "lng": 76.3005578
+  },
+  {
+    "id": 359,
+    "name": "Aster Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9681596,
+    "lng": 76.284957
+  },
+  {
+    "id": 360,
+    "name": "Apollo 24/7 Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0160409,
+    "lng": 76.3592633
+  },
+  {
+    "id": 361,
+    "name": "Niyo Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.967422,
+    "lng": 76.3051757
+  },
+  {
+    "id": 362,
+    "name": "Medha Dental Care",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9634283,
+    "lng": 76.3032923
+  },
+  {
+    "id": 363,
+    "name": "Facets",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9643146,
+    "lng": 76.3060209
+  },
+  {
+    "id": 364,
+    "name": "Usha Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.96759,
+    "lng": 76.2984341
+  },
+  {
+    "id": 365,
+    "name": "Atlantis Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9558033,
+    "lng": 76.2925867
+  },
+  {
+    "id": 366,
+    "name": "Paulson Dental Centre",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9691657,
+    "lng": 76.2894195
+  },
+  {
+    "id": 367,
+    "name": "Aster Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9416345,
+    "lng": 76.2952519
+  },
+  {
+    "id": 368,
+    "name": "St Sebastian",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9407379,
+    "lng": 76.295581
+  },
+  {
+    "id": 369,
+    "name": "Kalarickal Dental Care",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9638155,
+    "lng": 76.295333
+  },
+  {
+    "id": 370,
+    "name": "Elite Dental Studio",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.96418,
+    "lng": 76.2953658
+  },
+  {
+    "id": 371,
+    "name": "Facets",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9628332,
+    "lng": 76.2950747
+  },
+  {
+    "id": 372,
+    "name": "Berinnov",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9627127,
+    "lng": 76.2955659
+  },
+  {
+    "id": 373,
+    "name": "Avenue Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9627999,
+    "lng": 76.295539
+  },
+  {
+    "id": 374,
+    "name": "Doctors",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9627457,
+    "lng": 76.2955523
+  },
+  {
+    "id": 375,
+    "name": "Dr Sachin's",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9680582,
+    "lng": 76.300134
+  },
+  {
+    "id": 376,
+    "name": "Vivitra",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9671616,
+    "lng": 76.2884723
+  },
+  {
+    "id": 377,
+    "name": "Sharon Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9460734,
+    "lng": 76.2944881
+  },
+  {
+    "id": 378,
+    "name": "Medlife",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1402021,
+    "lng": 76.2295753
+  },
+  {
+    "id": 379,
+    "name": "Renai Medicity",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0079415,
+    "lng": 76.3035506
+  },
+  {
+    "id": 380,
+    "name": "Dr. Kurian's Orthodontics",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1128262,
+    "lng": 76.3549966
+  },
+  {
+    "id": 381,
+    "name": "Joy's Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9666645,
+    "lng": 76.2991351
+  },
+  {
+    "id": 382,
+    "name": "Royal Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9666062,
+    "lng": 76.299119
+  },
+  {
+    "id": 383,
+    "name": "Elenjikal Dental Centre",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9520953,
+    "lng": 76.3024713
+  },
+  {
+    "id": 384,
+    "name": "Hope Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9485531,
+    "lng": 76.3028493
+  },
+  {
+    "id": 385,
+    "name": "Medicops",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9722394,
+    "lng": 76.2829559
+  },
+  {
+    "id": 386,
+    "name": "Dr Bijoy's",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.976156,
+    "lng": 76.2973929
+  },
+  {
+    "id": 387,
+    "name": "Dr Navanith",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9778494,
+    "lng": 76.2966153
+  },
+  {
+    "id": 388,
+    "name": "Supplyco Medical Store",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9635039,
+    "lng": 76.2877341
+  },
+  {
+    "id": 389,
+    "name": "Jan Aushadhi",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9458515,
+    "lng": 76.2936747
+  },
+  {
+    "id": 390,
+    "name": "Koithara Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9515488,
+    "lng": 76.296796
+  },
+  {
+    "id": 391,
+    "name": "Doctor Peter's Clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.962874,
+    "lng": 76.3566938
+  },
+  {
+    "id": 392,
+    "name": "Dr. Tony Fernandez Eye Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Hill Road",
+    "phone": "N/A",
+    "lat": 10.1081984,
+    "lng": 76.3543799
+  },
+  {
+    "id": 393,
+    "name": "Apollo Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "04842927395",
+    "lat": 9.9848908,
+    "lng": 76.3300837
+  },
+  {
+    "id": 394,
+    "name": "Appollo Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9937451,
+    "lng": 76.2809791
+  },
+  {
+    "id": 395,
+    "name": "Aster Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9933424,
+    "lng": 76.2812296
+  },
+  {
+    "id": 396,
+    "name": "Apollo Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9913651,
+    "lng": 76.2849698
+  },
+  {
+    "id": 397,
+    "name": "The Dental Boutique",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9634327,
+    "lng": 76.297011
+  },
+  {
+    "id": 398,
+    "name": "Dr Thampy's",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9636942,
+    "lng": 76.2976594
+  },
+  {
+    "id": 399,
+    "name": "Adonai",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.966447,
+    "lng": 76.2972915
+  },
+  {
+    "id": 400,
+    "name": "Life Care Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9277567,
+    "lng": 76.3135234
+  },
+  {
+    "id": 401,
+    "name": "Dental Care Centre",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9593631,
+    "lng": 76.2999869
+  },
+  {
+    "id": 402,
+    "name": "Dr Skariah's Dental Clinic & Implant Centre",
+    "category": "Dental Clinic",
+    "area": "Vyttila",
+    "address": "Vyttila, Kochi",
+    "phone": "+91 99954 63527",
+    "lat": 9.9729949,
+    "lng": 76.3068288
+  },
+  {
+    "id": 403,
+    "name": "Jan Aushadhi",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Penta Towers, Banerji Rd, Opp, Kaloor",
+    "phone": "04842531152",
+    "lat": 9.9949389,
+    "lng": 76.2923558
+  },
+  {
+    "id": 404,
+    "name": "Sevana Medicines",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9942791,
+    "lng": 76.2912523
+  },
+  {
+    "id": 405,
+    "name": "Mohan Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9727304,
+    "lng": 76.297972
+  },
+  {
+    "id": 406,
+    "name": "English Medicines",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0428587,
+    "lng": 76.3551532
+  },
+  {
+    "id": 407,
+    "name": "Spectrum Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.967429,
+    "lng": 76.29974
+  },
+  {
+    "id": 408,
+    "name": "Dr Nirupama's Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9735789,
+    "lng": 76.2831384
+  },
+  {
+    "id": 409,
+    "name": "Dr James",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.963242,
+    "lng": 76.2947936
+  },
+  {
+    "id": 410,
+    "name": "Aster Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9710461,
+    "lng": 76.2996536
+  },
+  {
+    "id": 411,
+    "name": "Geodent",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9770573,
+    "lng": 76.2868898
+  },
+  {
+    "id": 412,
+    "name": "Sevana Medicines",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9647504,
+    "lng": 76.2882705
+  },
+  {
+    "id": 413,
+    "name": "Oncology, Renal & Ophthalmology Block, Medical Trust Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9643974,
+    "lng": 76.2885344
+  },
+  {
+    "id": 414,
+    "name": "Vettickattil Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9599458,
+    "lng": 76.2901013
+  },
+  {
+    "id": 415,
+    "name": "D4K",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9628418,
+    "lng": 76.2950995
+  },
+  {
+    "id": 416,
+    "name": "Dr RK’s Pediatric & Family Dental Clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "0484 233 2330",
+    "lat": 10.0239248,
+    "lng": 76.2992417
+  },
+  {
+    "id": 417,
+    "name": "Q Life",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0173336,
+    "lng": 76.3747233
+  },
+  {
+    "id": 418,
+    "name": "Medicare",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9550964,
+    "lng": 76.2985331
+  },
+  {
+    "id": 419,
+    "name": "Mampilly Dispensary",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.977898,
+    "lng": 76.2776665
+  },
+  {
+    "id": 420,
+    "name": "MedPlus",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9433258,
+    "lng": 76.294507
+  },
+  {
+    "id": 421,
+    "name": "Cochin Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9678606,
+    "lng": 76.2996879
+  },
+  {
+    "id": 422,
+    "name": "Urban Community Health Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9292264,
+    "lng": 76.3017447
+  },
+  {
+    "id": 423,
+    "name": "Life Care Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9651505,
+    "lng": 76.2940403
+  },
+  {
+    "id": 424,
+    "name": "Skinsecrets",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Changampuzha Park Walkway",
+    "phone": "N/A",
+    "lat": 10.0169457,
+    "lng": 76.303057
+  },
+  {
+    "id": 425,
+    "name": "Trinity Dental Clinic & Lab",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9687831,
+    "lng": 76.3155252
+  },
+  {
+    "id": 426,
+    "name": "Apollo Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9764063,
+    "lng": 76.297667
+  },
+  {
+    "id": 427,
+    "name": "Dr Pradeepa",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9342849,
+    "lng": 76.2984182
+  },
+  {
+    "id": 428,
+    "name": "Diabridge Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9727545,
+    "lng": 76.3062502
+  },
+  {
+    "id": 429,
+    "name": "Public Parking Ground",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0878142,
+    "lng": 76.390581
+  },
+  {
+    "id": 430,
+    "name": "ayurvedic raw herb",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0430323,
+    "lng": 76.3542059
+  },
+  {
+    "id": 431,
+    "name": "ayurveda medical centre",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0374105,
+    "lng": 76.3485685
+  },
+  {
+    "id": 432,
+    "name": "Spectrum Pharma",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9859745,
+    "lng": 76.2813739
+  },
+  {
+    "id": 433,
+    "name": "Apollo Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0095106,
+    "lng": 76.3169917
+  },
+  {
+    "id": 434,
+    "name": "Apollo Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9691401,
+    "lng": 76.3192868
+  },
+  {
+    "id": 435,
+    "name": "Apollo Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1464005,
+    "lng": 76.2531873
+  },
+  {
+    "id": 436,
+    "name": "Aster Pharmacy - North Paravur",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Aluva-Parur Road",
+    "phone": "+91-8071-177975",
+    "lat": 10.148058,
+    "lng": 76.245426
+  },
+  {
+    "id": 437,
+    "name": "City Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Aluva-Parur Road",
+    "phone": "+91-7012-328562",
+    "lat": 10.1483423,
+    "lng": 76.2450276
+  },
+  {
+    "id": 438,
+    "name": "Paravur Drug House",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kodungallur-Paravur-Ernakulam Highway",
+    "phone": "N/A",
+    "lat": 10.1405114,
+    "lng": 76.2293605
+  },
+  {
+    "id": 439,
+    "name": "Dr. Life - Sevana English Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "+91-4842-942954",
+    "lat": 10.1469096,
+    "lng": 76.2530617
+  },
+  {
+    "id": 440,
+    "name": "Flora Medicare & Dental Implant Center",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Aluva-Parur Road",
+    "phone": "+91-9072-303399",
+    "lat": 10.1496227,
+    "lng": 76.2382467
+  },
+  {
+    "id": 441,
+    "name": "Lisie Cancer Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9891832,
+    "lng": 76.2886971
+  },
+  {
+    "id": 442,
+    "name": "Best Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Seaport Airport Road",
+    "phone": "+91-9847-253700",
+    "lat": 10.0014334,
+    "lng": 76.3498036
+  },
+  {
+    "id": 443,
+    "name": "Ayzel Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1195412,
+    "lng": 76.3426962
+  },
+  {
+    "id": 444,
+    "name": "Pharmamed Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Seaport Airport Road",
+    "phone": "+91-4844-012376",
+    "lat": 10.0030807,
+    "lng": 76.3483436
+  },
+  {
+    "id": 445,
+    "name": "Sarha Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Seaport Airport Road",
+    "phone": "+91-9447-185840",
+    "lat": 10.0023553,
+    "lng": 76.3491854
+  },
+  {
+    "id": 446,
+    "name": "Aster Pharmacy Chittethukara",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Seaport Airport Road",
+    "phone": "+91-8071-178059",
+    "lat": 10.0023025,
+    "lng": 76.3492551
+  },
+  {
+    "id": 447,
+    "name": "Diligent Dental Studio Kakkanad",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Seaport Airport Road",
+    "phone": "+91-9074-858407",
+    "lat": 10.0023483,
+    "lng": 76.3492931
+  },
+  {
+    "id": 448,
+    "name": "Davaindia Generic Pharmacy",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9605493,
+    "lng": 76.2430447
+  },
+  {
+    "id": 449,
+    "name": "Grace Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9627284,
+    "lng": 76.2430002
+  },
+  {
+    "id": 450,
+    "name": "Smile kochi dental clinic",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0286796,
+    "lng": 76.305708
+  },
+  {
+    "id": 451,
+    "name": "Dr Swetha's Dental Care",
+    "category": "Dental Clinic",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.029969,
+    "lng": 76.344902
+  },
+  {
+    "id": 452,
+    "name": "Health Care Medicals",
+    "category": "Pharmacy",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0166556,
+    "lng": 76.3694273
+  },
+  {
+    "id": 453,
+    "name": "25th Hour Clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9455961,
+    "lng": 76.3485135
+  },
+  {
+    "id": 454,
+    "name": "VPS Lakeshore Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "NH-66 Bypass, Maradu, Cochin",
+    "phone": "N/A",
+    "lat": 9.9189889,
+    "lng": 76.3419
+  },
+  {
+    "id": 455,
+    "name": "Amrita Hospital, Kochi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Ponekkara",
+    "phone": "N/A",
+    "lat": 10.0326403,
+    "lng": 76.3419
+  },
+  {
+    "id": 456,
+    "name": "Government Medical College Ernakulam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "HMT Colony P.O, Kalamassery",
+    "phone": "N/A",
+    "lat": 10.0533957,
+    "lng": 76.3419
+  },
+  {
+    "id": 457,
+    "name": "Sangeetha Nursing Home",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9573652,
+    "lng": 76.3419
+  },
+  {
+    "id": 458,
+    "name": "Lourdes Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Lourde Hospital Road",
+    "phone": "N/A",
+    "lat": 10.0066809,
+    "lng": 76.3419
+  },
+  {
+    "id": 459,
+    "name": "Lisie Hospital",
+    "category": "Hospital",
+    "area": "Kacheripady",
+    "address": "Lisie Hospital road",
+    "phone": "N/A",
+    "lat": 9.9880779,
+    "lng": 76.3419
+  },
+  {
+    "id": 460,
+    "name": "Samaritan Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Pazhanganad",
+    "phone": "+91-4842680511; +91-4842680516",
+    "lat": 10.0439478,
+    "lng": 76.3419
+  },
+  {
+    "id": 461,
+    "name": "ESIC Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0779504,
+    "lng": 76.3419
+  },
+  {
+    "id": 462,
+    "name": "P V S Memorial Hospital Ltd",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kaloor, Near Railway Station",
+    "phone": "N/A",
+    "lat": 9.9935077,
+    "lng": 76.3419
+  },
+  {
+    "id": 463,
+    "name": "Taluk Headquarters Hospital, North Paravur",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "North Paravur",
+    "phone": "N/A",
+    "lat": 10.1496178,
+    "lng": 76.3419
+  },
+  {
+    "id": 464,
+    "name": "Women and Children Hospital, Mattancherry",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9593629,
+    "lng": 76.3419
+  },
+  {
+    "id": 465,
+    "name": "Kochi Port Trust Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9607555,
+    "lng": 76.3419
+  },
+  {
+    "id": 466,
+    "name": "Community Haelth Centre Narakkal",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0435323,
+    "lng": 76.3419
+  },
+  {
+    "id": 467,
+    "name": "Lakshmi hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Mezhukkattil Buildings, Sub Jail Road, Opposite Zeenath Theatre",
+    "phone": "N/A",
+    "lat": 10.1050784,
+    "lng": 76.3419
+  },
+  {
+    "id": 468,
+    "name": "Karothukuzhi Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Market Road",
+    "phone": "+91 484 262 5228",
+    "lat": 10.1053005,
+    "lng": 76.3419
+  },
+  {
+    "id": 469,
+    "name": "Donbosco Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "North Paravur, Ernakulam",
+    "phone": "N/A",
+    "lat": 10.1464515,
+    "lng": 76.3419
+  },
+  {
+    "id": 470,
+    "name": "KMK hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.145044,
+    "lng": 76.3419
+  },
+  {
+    "id": 471,
+    "name": "Aster Medcity",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0434755,
+    "lng": 76.3419
+  },
+  {
+    "id": 472,
+    "name": "AIMS B Block",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0328142,
+    "lng": 76.3419
+  },
+  {
+    "id": 473,
+    "name": "Government  Ayurveda Hospital  Aluva",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "+91-4842986864",
+    "lat": 10.1238496,
+    "lng": 76.3419
+  },
+  {
+    "id": 474,
+    "name": "KPM Eye Hospital",
+    "category": "Hospital",
+    "area": "Ernakulam",
+    "address": "Hospital Road",
+    "phone": "N/A",
+    "lat": 9.971842,
+    "lng": 76.3419
+  },
+  {
+    "id": 475,
+    "name": "Nettoor Medical Centre Homeo Clinic pvt",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9243065,
+    "lng": 76.3419
+  },
+  {
+    "id": 476,
+    "name": "Family Health centre Udayamperoor",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9000925,
+    "lng": 76.3419
+  },
+  {
+    "id": 477,
+    "name": "Primary Health Centre Panangad",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9033473,
+    "lng": 76.3419
+  },
+  {
+    "id": 478,
+    "name": "Thaqdees Hospital Limited",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Pukkattupady, Edathala, Aluva",
+    "phone": "N/A",
+    "lat": 10.0706873,
+    "lng": 76.3419
+  },
+  {
+    "id": 479,
+    "name": "INHS Sanjivani Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9470284,
+    "lng": 76.3419
+  },
+  {
+    "id": 480,
+    "name": "Welcare Hospital",
+    "category": "Hospital",
+    "area": "Vyttila",
+    "address": "Sahodaran Ayyappan Road",
+    "phone": "N/A",
+    "lat": 9.9680068,
+    "lng": 76.3419
+  },
+  {
+    "id": 481,
+    "name": "Rajagiri Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Aluva - Munnar Road",
+    "phone": "N/A",
+    "lat": 10.0876574,
+    "lng": 76.3419
+  },
+  {
+    "id": 482,
+    "name": "ESI Dispensary , Fort Kochi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9572454,
+    "lng": 76.3419
+  },
+  {
+    "id": 483,
+    "name": "Medical Trust Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1152514,
+    "lng": 76.3419
+  },
+  {
+    "id": 484,
+    "name": "Vijaya Kumara Menon Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "North Fort Gate, Tripunithura, Kochi",
+    "phone": "N/A",
+    "lat": 9.9527869,
+    "lng": 76.3419
+  },
+  {
+    "id": 485,
+    "name": "Sarada Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Nayarambalam P.O., Vypin, Kochi",
+    "phone": "+91-484 249 2581",
+    "lat": 10.0689087,
+    "lng": 76.3419
+  },
+  {
+    "id": 486,
+    "name": "Medical Trust Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "M G Road, Kochi",
+    "phone": "N/A",
+    "lat": 9.9648215,
+    "lng": 76.3419
+  },
+  {
+    "id": 487,
+    "name": "Vasan Eye Care Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "27/3215, Opp: Shipyard M G Road, Kochi",
+    "phone": "N/A",
+    "lat": 9.9547092,
+    "lng": 76.3419
+  },
+  {
+    "id": 488,
+    "name": "Chaithanya ENT Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "38/685A, Sahodharan Ayyappan Road, Kadavanthra",
+    "phone": "N/A",
+    "lat": 9.9664176,
+    "lng": 76.3419
+  },
+  {
+    "id": 489,
+    "name": "Kristu Jayanti Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Perumpilly, Narakkal",
+    "phone": "+91-484 249 5250",
+    "lat": 10.0372148,
+    "lng": 76.3419
+  },
+  {
+    "id": 490,
+    "name": "General Hospital Ernakulam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9720127,
+    "lng": 76.3419
+  },
+  {
+    "id": 491,
+    "name": "Indira Gandhi Co-operative Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9688313,
+    "lng": 76.3419
+  },
+  {
+    "id": 492,
+    "name": "ESI Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.994072,
+    "lng": 76.3419
+  },
+  {
+    "id": 493,
+    "name": "Saraf Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "39 /4603, Sreekandath Road, Ravipuram",
+    "phone": "+91-484 238 0452",
+    "lat": 9.9615207,
+    "lng": 76.3419
+  },
+  {
+    "id": 494,
+    "name": "Lakshmi Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Diwans Road",
+    "phone": "+91 484 238 2111",
+    "lat": 9.9664259,
+    "lng": 76.3419
+  },
+  {
+    "id": 495,
+    "name": "Krishna Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Chittoor Road",
+    "phone": "+91-484 409 5888",
+    "lat": 9.9750574,
+    "lng": 76.3419
+  },
+  {
+    "id": 496,
+    "name": "Lakhmi Hospital Parking Ground",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Sub Jail Road",
+    "phone": "N/A",
+    "lat": 10.1057328,
+    "lng": 76.3419
+  },
+  {
+    "id": 497,
+    "name": "Taluk Hospital Njarackal",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "+91-484-2494154",
+    "lat": 10.042347,
+    "lng": 76.3419
+  },
+  {
+    "id": 498,
+    "name": "Govt. Homeo Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.966259,
+    "lng": 76.3419
+  },
+  {
+    "id": 499,
+    "name": "Urban Primary Health Centre, Edakochi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.909005,
+    "lng": 76.3419
+  },
+  {
+    "id": 500,
+    "name": "Government Homoeo Model Dispensary Edakochi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Old NH 47",
+    "phone": "N/A",
+    "lat": 9.9062593,
+    "lng": 76.3419
+  },
+  {
+    "id": 501,
+    "name": "Samaritan heart institute",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0438365,
+    "lng": 76.3419
+  },
+  {
+    "id": 502,
+    "name": "Samaritan hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0438872,
+    "lng": 76.3419
+  },
+  {
+    "id": 503,
+    "name": "Primary Health Centre, Kadungalloor",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1061266,
+    "lng": 76.3419
+  },
+  {
+    "id": 504,
+    "name": "Community Health Center,Edappally",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Elamakkara Road",
+    "phone": "N/A",
+    "lat": 10.0177501,
+    "lng": 76.3419
+  },
+  {
+    "id": 505,
+    "name": "Shreyas Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "+91-484 250 5059",
+    "lat": 10.0909447,
+    "lng": 76.3419
+  },
+  {
+    "id": 506,
+    "name": "Family Health Centre, Karumaloor",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Karumalloor",
+    "phone": "N/A",
+    "lat": 10.1305579,
+    "lng": 76.3419
+  },
+  {
+    "id": 507,
+    "name": "District TB Centre Karuvelipady",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9419341,
+    "lng": 76.3419
+  },
+  {
+    "id": 508,
+    "name": "Kims Hospital And Surgical Center",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Changampuzha Nagar P O Pathadipalam Edapally Kochi",
+    "phone": "N/A",
+    "lat": 10.0410263,
+    "lng": 76.3419
+  },
+  {
+    "id": 509,
+    "name": "Govt Primary Health Centre, Puthuvype",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Puthuvype, Puthuvyupe PO",
+    "phone": "N/A",
+    "lat": 9.9980512,
+    "lng": 76.3419
+  },
+  {
+    "id": 510,
+    "name": "Govt. Community Health Centre, Malipuram",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Vypin-Munapam Road",
+    "phone": "N/A",
+    "lat": 10.0189642,
+    "lng": 76.3419
+  },
+  {
+    "id": 511,
+    "name": "CA Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1289768,
+    "lng": 76.3419
+  },
+  {
+    "id": 512,
+    "name": "Taluk Hospital Palluruthy",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.911405,
+    "lng": 76.3419
+  },
+  {
+    "id": 513,
+    "name": "Taluk Headquarters Hospital Tripunithura",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kottakakom",
+    "phone": "N/A",
+    "lat": 9.9424765,
+    "lng": 76.3419
+  },
+  {
+    "id": 514,
+    "name": "Nayarambalam Government Homoeo Dispensary",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Nedungad",
+    "phone": "+91 484 24955930",
+    "lat": 10.0713226,
+    "lng": 76.3419
+  },
+  {
+    "id": 515,
+    "name": "Ambalamugal Medical Aid Society (AMAS)",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9741154,
+    "lng": 76.3419
+  },
+  {
+    "id": 516,
+    "name": "Government Ayurveda Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9437898,
+    "lng": 76.3419
+  },
+  {
+    "id": 517,
+    "name": "Roshan Eye Care",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9517435,
+    "lng": 76.3419
+  },
+  {
+    "id": 518,
+    "name": "Taluk Headquarters Maharajas Hospital Karuvelippad",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9432699,
+    "lng": 76.3419
+  },
+  {
+    "id": 519,
+    "name": "Taluk Head Quarters Hospital Fort Kochi",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.965665,
+    "lng": 76.3419
+  },
+  {
+    "id": 520,
+    "name": "District Hospital Aluva",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1054137,
+    "lng": 76.3419
+  },
+  {
+    "id": 521,
+    "name": "Family Health Centre Cheranallore",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0600459,
+    "lng": 76.3419
+  },
+  {
+    "id": 522,
+    "name": "Family Health Centre, Kakkanad",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0192138,
+    "lng": 76.3419
+  },
+  {
+    "id": 523,
+    "name": "Primary Health Centre Choornikkara",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0962159,
+    "lng": 76.3419
+  },
+  {
+    "id": 524,
+    "name": "Family Health Centre, Mulavukad",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0120821,
+    "lng": 76.3419
+  },
+  {
+    "id": 525,
+    "name": "Public Health Center Edavanakkad",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0982668,
+    "lng": 76.3419
+  },
+  {
+    "id": 526,
+    "name": "Amritha Hospital Ground",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.034538,
+    "lng": 76.3419
+  },
+  {
+    "id": 527,
+    "name": "Cochi Eye Care",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.1241781,
+    "lng": 76.3419
+  },
+  {
+    "id": 528,
+    "name": "Carmel Medical Centre Thirumuppam",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0920588,
+    "lng": 76.3419
+  },
+  {
+    "id": 529,
+    "name": "Primary Health Centre ,Pizhala",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0536416,
+    "lng": 76.3419
+  },
+  {
+    "id": 530,
+    "name": "Sarathy Ayurvedic clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kottara Kadavu Road",
+    "phone": "N/A",
+    "lat": 10.1126792,
+    "lng": 76.3419
+  },
+  {
+    "id": 531,
+    "name": "Veterinary Sub Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9172014,
+    "lng": 76.3419
+  },
+  {
+    "id": 532,
+    "name": "PS Mission Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9376992,
+    "lng": 76.3419
+  },
+  {
+    "id": 533,
+    "name": "Primary Health Center, Chottanikkara",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9201836,
+    "lng": 76.3419
+  },
+  {
+    "id": 534,
+    "name": "Akshaya Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9720939,
+    "lng": 76.3419
+  },
+  {
+    "id": 535,
+    "name": "Neethi Lab",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9349483,
+    "lng": 76.3419
+  },
+  {
+    "id": 536,
+    "name": "Dr. Tony's Super Speciality Eye Institute",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Hill Road",
+    "phone": "N/A",
+    "lat": 10.1080725,
+    "lng": 76.3419
+  },
+  {
+    "id": 537,
+    "name": "Kunhalu's Nursing Home",
+    "category": "Hospital",
+    "area": "Ernakulam South",
+    "address": "TD Road",
+    "phone": "N/A",
+    "lat": 9.972716,
+    "lng": 76.3419
+  },
+  {
+    "id": 538,
+    "name": "Medical Trust Hospital",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.96172,
+    "lng": 76.3419
+  },
+  {
+    "id": 539,
+    "name": "Urban Primary Health Centre",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 9.9649247,
+    "lng": 76.3419
+  },
+  {
+    "id": 540,
+    "name": "CMC Clinic",
+    "category": "Hospital",
+    "area": "Kochi Region",
+    "address": "Kochi Region, Kochi",
+    "phone": "N/A",
+    "lat": 10.0529268,
+    "lng": 76.3419
+  }
+]
