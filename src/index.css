@@ -24,11 +24,18 @@ body {
 .header {
   background: linear-gradient(135deg, #0d6efd, #0a58ca);
   color: white;
-  padding: 20px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header-left {
   display: flex;
   align-items: center;
   gap: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .header-logo {
@@ -44,6 +51,45 @@ body {
   font-size: 24px;
   font-weight: 700;
   margin: 0;
+}
+
+.emergency-btn {
+  background: #ff1744;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.emergency-btn:hover {
+  background: #d50000;
+}
+
+.emergency-box {
+  margin: 12px 15px;
+  padding: 14px;
+  background: #fff3f3;
+  border: 1px solid #ffb3b3;
+  border-radius: 8px;
+}
+
+.emergency-box h3 {
+  color: #d50000;
+  margin-bottom: 8px;
+}
+
+.emergency-box p {
+  margin: 8px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.emergency-box a {
+  color: #0d6efd;
+  text-decoration: none;
 }
 
 .search-box,
@@ -215,5 +261,23 @@ body {
   .map-section {
     width: 100%;
     height: 55vh;
+  }
+
+  .header {
+    padding: 14px;
+  }
+
+  .header h2 {
+    font-size: 19px;
+  }
+
+  .header-logo {
+    width: 42px;
+    height: 42px;
+  }
+
+  .emergency-btn {
+    padding: 8px 10px;
+    font-size: 12px;
   }
 }

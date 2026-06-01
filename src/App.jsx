@@ -50,6 +50,7 @@ function App() {
   const [showForm, setShowForm] = useState(false);
   const [pickingLocation, setPickingLocation] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(null);
+  const [showEmergency, setShowEmergency] = useState(false);
 
   const [newPlace, setNewPlace] = useState({
     name: "",
@@ -173,13 +174,43 @@ function App() {
     <div className="app">
       <div className="sidebar">
         <div className="header">
-          <img
-            src="/health-logo.png"
-            alt="Kochi Health Finder"
-            className="header-logo"
-          />
-          <h2>Kochi Health Finder</h2>
+          <div className="header-left">
+            <img
+              src="/health-logo.png"
+              alt="Kochi Health Finder"
+              className="header-logo"
+            />
+            <h2>Kochi Health Finder</h2>
+          </div>
+
+          <button
+            className="emergency-btn"
+            onClick={() => setShowEmergency(!showEmergency)}
+          >
+            🚑 Emergency
+          </button>
         </div>
+
+        {showEmergency && (
+          <div className="emergency-box">
+            <h3>Emergency Contacts</h3>
+
+            <p>
+              🚑 Ambulance:{" "}
+              <a href="tel:108">108</a>
+            </p>
+
+            <p>
+              🏥 Patient Transport:{" "}
+              <a href="tel:102">102</a>
+            </p>
+
+            <p>
+              🆘 National Emergency:{" "}
+              <a href="tel:112">112</a>
+            </p>
+          </div>
+        )}
 
         <input
           type="text"
