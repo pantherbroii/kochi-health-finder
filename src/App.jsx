@@ -54,6 +54,224 @@ function MoveMapToLocation({ selectedLocation }) {
   return null;
 }
 
+function FacilityCard({ item, favorites, startEdit, openDirections, toggleFavorite }) {
+  return (
+    <div className="facility-card">
+      <div className="facility-top">
+        <div className="facility-icon">🏥</div>
+        <div className="facility-main">
+          <h3>{item.name}</h3>
+          <p className="facility-meta">
+            📍 {item.area} · {item.category}
+          </p>
+          <p className="facility-phone">📞 {item.phone || "N/A"}</p>
+        </div>
+
+        <button
+          type="button"
+          className="edit-icon-btn"
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            startEdit(item);
+          }}
+        >
+          ✏️
+        </button>
+      </div>
+
+      <div className="facility-details">
+        <span>{item.openNow ? "🟢 Open Now" : "🔴 Closed"}</span>
+        <span>🕒 {item.workingTime || "Time not added"}</span>
+      </div>
+
+      {item.details && <p className="facility-extra">ℹ️ {item.details}</p>}
+
+      <div className="facility-actions">
+        <button className="direction-btn" onClick={() => openDirections(item)}>
+          Directions
+        </button>
+
+        <button className="favorite-btn" onClick={() => toggleFavorite(item)}>
+          {favorites.includes(item.id) ? "★ Saved" : "☆ Save"}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function AddPlaceForm({
+  user,
+  newPlace,
+  setNewPlace,
+  handleAddPlace,
+  setPickingLocation,
+  setMapExpanded,
+  useCurrentLocation,
+  pickingLocation,
+  selectedLocation,
+}) {
+  const updateField = (field, value) => {
+    setNewPlace((previousPlace) => ({
+      ...previousPlace,
+      [field]: value,
+    }));
+  };
+
+  return (
+    <form className="add-form app-card" onSubmit={handleAddPlace}>
+      <h2>Add Healthcare Facility</h2>
+
+      {!user && <p className="login-warning">Please login to add a place.</p>}
+
+      <input
+        type="text"
+        placeholder="Place name"
+        value={newPlace.name}
+        onChange={(e) => updateField("name", e.target.value)}
+        autoComplete="off"
+      />
+
+      <select
+        value={newPlace.category}
+        onChange={(e) => updateField("category", e.target.value)}
+      >
+        <option>Hospital</option>
+        <option>Clinic</option>
+        <option>Dental Clinic</option>
+        <option>Skin Clinic</option>
+        <option>Eye Hospital</option>
+        <option>Pharmacy</option>
+        <option>Lab</option>
+        <option>Ambulance</option>
+      </select>
+
+      <input
+        type="text"
+        placeholder="Area"
+        value={newPlace.area}
+        onChange={(e) => updateField("area", e.target.value)}
+        autoComplete="off"
+      />
+
+      <input
+        type="text"
+        placeholder="Address"
+        value={newPlace.address}
+        onChange={(e) => updateField("address", e.target.value)}
+        autoComplete="off"
+      />
+
+      <input
+        type="text"
+        placeholder="Phone number"
+        value={newPlace.phone}
+        onChange={(e) => updateField("phone", e.target.value)}
+        autoComplete="off"
+      />
+
+      <input
+        type="text"
+        placeholder="Working time"
+        value={newPlace.workingTime}
+        onChange={(e) => updateField("workingTime", e.target.value)}
+        autoComplete="off"
+      />
+
+      <input
+        type="text"
+        placeholder="Other details"
+        value={newPlace.details}
+        onChange={(e) => updateField("details", e.target.value)}
+        autoComplete="off"
+      />
+
+      <button
+        type="button"
+        className="pick-location-btn"
+        onClick={() => {
+          if (!user) {
+            alert("Please login with Google to select a location.");
+            return;
+          }
+
+          setPickingLocation(true);
+          setMapExpanded(true);
+        }}
+      >
+        📍 Pick Location on Map
+      </button>
+
+      <button
+        type="button"
+        className="current-location-btn"
+        onClick={useCurrentLocation}
+      >
+        📌 Use My Current Location
+      </button>
+
+      {pickingLocation && (
+        <p className="pick-help">Now click the exact place on the map.</p>
+      )}
+
+      {selectedLocation && (
+        <p className="location-selected">✅ Location selected successfully</p>
+      )}
+
+      <button type="submit" className="submit-btn">
+        Save Place Online
+      </button>
+    </form>
+  );
+}
+
+function ProfileContent({
+  user,
+  profileName,
+  setProfileName,
+  saveProfileName,
+  logout,
+  loginWithGoogle,
+}) {
+  return (
+    <div className="profile-page app-card">
+      {user ? (
+        <>
+          <img src={user.photoURL} alt="User" className="profile-photo" />
+          <h2>{user.displayName || "My Profile"}</h2>
+          <p>{user.email}</p>
+
+          <label className="profile-label">Change Name</label>
+          <input
+            type="text"
+            value={profileName}
+            onChange={(e) => setProfileName(e.target.value)}
+            className="profile-input"
+            placeholder="Enter your name"
+          />
+
+          <button className="profile-save-btn" onClick={saveProfileName}>
+            Save Name
+          </button>
+
+          <button className="logout-wide-btn" onClick={logout}>
+            🚪 Logout
+          </button>
+        </>
+      ) : (
+        <>
+          <h2>Login Required</h2>
+          <p>Login to save favorites and add or edit healthcare places.</p>
+
+          <button className="login-wide-btn" onClick={loginWithGoogle}>
+            👤 Login with Google
+          </button>
+        </>
+      )}
+    </div>
+  );
+}
+
 function App() {
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All Categories");
@@ -96,8 +314,10 @@ function App() {
 
       if (currentUser) {
         setProfileName(currentUser.displayName || "");
+
         const savedFavorites =
           JSON.parse(localStorage.getItem(`favorites_${currentUser.uid}`)) || [];
+
         setFavorites(savedFavorites);
       } else {
         setFavorites([]);
@@ -110,11 +330,13 @@ function App() {
 
   const fetchFirebasePlaces = async () => {
     const querySnapshot = await getDocs(collection(db, "places"));
+
     const places = querySnapshot.docs.map((docItem) => ({
       id: docItem.id,
       firebaseId: docItem.id,
       ...docItem.data(),
     }));
+
     setFirebasePlaces(places);
   };
 
@@ -217,6 +439,7 @@ function App() {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
         });
+
         setPickingLocation(false);
         alert("Current location selected successfully!");
       },
@@ -328,189 +551,13 @@ function App() {
     fetchFirebasePlaces();
   };
 
-  const FacilityCard = ({ item }) => (
-    <div className="facility-card">
-      <div className="facility-top">
-        <div className="facility-icon">🏥</div>
-        <div className="facility-main">
-          <h3>{item.name}</h3>
-          <p className="facility-meta">📍 {item.area} · {item.category}</p>
-          <p className="facility-phone">📞 {item.phone || "N/A"}</p>
-        </div>
-        <button
-          type="button"
-          className="edit-icon-btn"
-          onClick={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            startEdit(item);
-          }}
-        >
-          ✏️
-        </button>
-      </div>
-
-      <div className="facility-details">
-        <span>{item.openNow ? "🟢 Open Now" : "🔴 Closed"}</span>
-        <span>🕒 {item.workingTime || "Time not added"}</span>
-      </div>
-
-      {item.details && <p className="facility-extra">ℹ️ {item.details}</p>}
-
-      <div className="facility-actions">
-        <button className="direction-btn" onClick={() => openDirections(item)}>
-          Directions
-        </button>
-        <button className="favorite-btn" onClick={() => toggleFavorite(item)}>
-          {favorites.includes(item.id) ? "★ Saved" : "☆ Save"}
-        </button>
-      </div>
-    </div>
-  );
-
-  const AddPlaceForm = () => (
-    <form className="add-form app-card" onSubmit={handleAddPlace}>
-      <h2>Add Healthcare Facility</h2>
-      {!user && <p className="login-warning">Please login to add a place.</p>}
-
-      <input
-        type="text"
-        placeholder="Place name"
-        value={newPlace.name}
-        onChange={(e) => setNewPlace({ ...newPlace, name: e.target.value })}
-      />
-
-      <select
-        value={newPlace.category}
-        onChange={(e) => setNewPlace({ ...newPlace, category: e.target.value })}
-      >
-        <option>Hospital</option>
-        <option>Clinic</option>
-        <option>Dental Clinic</option>
-        <option>Skin Clinic</option>
-        <option>Eye Hospital</option>
-        <option>Pharmacy</option>
-        <option>Lab</option>
-        <option>Ambulance</option>
-      </select>
-
-      <input
-        type="text"
-        placeholder="Area"
-        value={newPlace.area}
-        onChange={(e) => setNewPlace({ ...newPlace, area: e.target.value })}
-      />
-
-      <input
-        type="text"
-        placeholder="Address"
-        value={newPlace.address}
-        onChange={(e) => setNewPlace({ ...newPlace, address: e.target.value })}
-      />
-
-      <input
-        type="text"
-        placeholder="Phone number"
-        value={newPlace.phone}
-        onChange={(e) => setNewPlace({ ...newPlace, phone: e.target.value })}
-      />
-
-      <input
-        type="text"
-        placeholder="Working time"
-        value={newPlace.workingTime}
-        onChange={(e) =>
-          setNewPlace({ ...newPlace, workingTime: e.target.value })
-        }
-      />
-
-      <input
-        type="text"
-        placeholder="Other details"
-        value={newPlace.details}
-        onChange={(e) => setNewPlace({ ...newPlace, details: e.target.value })}
-      />
-
-      <button
-        type="button"
-        className="pick-location-btn"
-        onClick={() => {
-          if (!user) {
-            alert("Please login with Google to select a location.");
-            return;
-          }
-          setPickingLocation(true);
-          setMapExpanded(true);
-        }}
-      >
-        📍 Pick Location on Map
-      </button>
-
-      <button
-        type="button"
-        className="current-location-btn"
-        onClick={useCurrentLocation}
-      >
-        📌 Use My Current Location
-      </button>
-
-      {pickingLocation && (
-        <p className="pick-help">Now click the exact place on the map.</p>
-      )}
-
-      {selectedLocation && (
-        <p className="location-selected">✅ Location selected successfully</p>
-      )}
-
-      <button type="submit" className="submit-btn">
-        Save Place Online
-      </button>
-    </form>
-  );
-
-  const ProfileContent = () => (
-    <div className="profile-page app-card">
-      {user ? (
-        <>
-          <img src={user.photoURL} alt="User" className="profile-photo" />
-          <h2>{user.displayName || "My Profile"}</h2>
-          <p>{user.email}</p>
-
-          <label className="profile-label">Change Name</label>
-          <input
-            type="text"
-            value={profileName}
-            onChange={(e) => setProfileName(e.target.value)}
-            className="profile-input"
-            placeholder="Enter your name"
-          />
-
-          <button className="profile-save-btn" onClick={saveProfileName}>
-            Save Name
-          </button>
-
-          <button className="logout-wide-btn" onClick={logout}>
-            🚪 Logout
-          </button>
-        </>
-      ) : (
-        <>
-          <h2>Login Required</h2>
-          <p>Login to save favorites and add or edit healthcare places.</p>
-          <button className="login-wide-btn" onClick={loginWithGoogle}>
-            👤 Login with Google
-          </button>
-        </>
-      )}
-    </div>
-  );
-
   return (
     <div className="mobile-app">
       <header className="app-header">
         <div className="brand-row">
           <div className="brand-left">
             <img src="/health-logo.png" alt="Kochi Health Finder" />
+
             <div>
               <h1>Kochi Health Finder</h1>
               <p>Find care near you</p>
@@ -532,6 +579,7 @@ function App() {
           <>
             <div className="search-wrapper">
               <span>🔍</span>
+
               <input
                 type="text"
                 placeholder="Search hospitals, clinics, labs..."
@@ -541,7 +589,10 @@ function App() {
             </div>
 
             <div className="filter-row">
-              <select value={category} onChange={(e) => setCategory(e.target.value)}>
+              <select
+                value={category}
+                onChange={(e) => setCategory(e.target.value)}
+              >
                 {categories.map((cat) => (
                   <option key={cat}>{cat}</option>
                 ))}
@@ -564,8 +615,14 @@ function App() {
               {quickCategories.map((cat) => (
                 <button
                   key={cat.value}
-                  className={category === cat.value ? "quick-card active" : "quick-card"}
-                  onClick={() => setCategory(category === cat.value ? "All Categories" : cat.value)}
+                  className={
+                    category === cat.value ? "quick-card active" : "quick-card"
+                  }
+                  onClick={() =>
+                    setCategory(
+                      category === cat.value ? "All Categories" : cat.value
+                    )
+                  }
                 >
                   <span>{cat.icon}</span>
                   <p>{cat.label}</p>
@@ -584,9 +641,15 @@ function App() {
             {showEmergency && (
               <section className="emergency-box app-card">
                 <h3>Emergency Contacts</h3>
-                <p>🚑 Ambulance: <a href="tel:108">108</a></p>
-                <p>🏥 Patient Transport: <a href="tel:102">102</a></p>
-                <p>🆘 National Emergency: <a href="tel:112">112</a></p>
+                <p>
+                  🚑 Ambulance: <a href="tel:108">108</a>
+                </p>
+                <p>
+                  🏥 Patient Transport: <a href="tel:102">102</a>
+                </p>
+                <p>
+                  🆘 National Emergency: <a href="tel:112">112</a>
+                </p>
               </section>
             )}
 
@@ -599,14 +662,25 @@ function App() {
             <section className="section-title-row">
               <div>
                 <h2>Nearby Healthcare</h2>
-                <p>Showing {filteredData.length} result{filteredData.length !== 1 ? "s" : ""}</p>
+                <p>
+                  Showing {filteredData.length} result
+                  {filteredData.length !== 1 ? "s" : ""}
+                </p>
               </div>
+
               <button onClick={() => setMapExpanded(true)}>🗺️ Map</button>
             </section>
 
             <section className="facility-list">
               {filteredData.map((item) => (
-                <FacilityCard key={item.id} item={item} />
+                <FacilityCard
+                  key={item.id}
+                  item={item}
+                  favorites={favorites}
+                  startEdit={startEdit}
+                  openDirections={openDirections}
+                  toggleFavorite={toggleFavorite}
+                />
               ))}
             </section>
           </>
@@ -617,7 +691,10 @@ function App() {
             <section className="section-title-row">
               <div>
                 <h2>Saved Places</h2>
-                <p>{favoritePlaces.length} favorite place{favoritePlaces.length !== 1 ? "s" : ""}</p>
+                <p>
+                  {favoritePlaces.length} favorite place
+                  {favoritePlaces.length !== 1 ? "s" : ""}
+                </p>
               </div>
             </section>
 
@@ -625,7 +702,10 @@ function App() {
               <div className="app-card empty-state">
                 <h3>Login Required</h3>
                 <p>Login to view and save favorite healthcare places.</p>
-                <button className="login-wide-btn" onClick={loginWithGoogle}>Login</button>
+
+                <button className="login-wide-btn" onClick={loginWithGoogle}>
+                  Login
+                </button>
               </div>
             ) : favoritePlaces.length === 0 ? (
               <div className="app-card empty-state">
@@ -635,16 +715,44 @@ function App() {
             ) : (
               <section className="facility-list">
                 {favoritePlaces.map((item) => (
-                  <FacilityCard key={item.id} item={item} />
+                  <FacilityCard
+                    key={item.id}
+                    item={item}
+                    favorites={favorites}
+                    startEdit={startEdit}
+                    openDirections={openDirections}
+                    toggleFavorite={toggleFavorite}
+                  />
                 ))}
               </section>
             )}
           </>
         )}
 
-        {activeTab === "add" && AddPlaceForm()}
+        {activeTab === "add" && (
+          <AddPlaceForm
+            user={user}
+            newPlace={newPlace}
+            setNewPlace={setNewPlace}
+            handleAddPlace={handleAddPlace}
+            setPickingLocation={setPickingLocation}
+            setMapExpanded={setMapExpanded}
+            useCurrentLocation={useCurrentLocation}
+            pickingLocation={pickingLocation}
+            selectedLocation={selectedLocation}
+          />
+        )}
 
-        {activeTab === "profile" && ProfileContent()}
+        {activeTab === "profile" && (
+          <ProfileContent
+            user={user}
+            profileName={profileName}
+            setProfileName={setProfileName}
+            saveProfileName={saveProfileName}
+            logout={logout}
+            loginWithGoogle={loginWithGoogle}
+          />
+        )}
       </main>
 
       <button
@@ -663,6 +771,7 @@ function App() {
           <span>🏠</span>
           Home
         </button>
+
         <button
           className={activeTab === "saved" ? "active" : ""}
           onClick={() => setActiveTab("saved")}
@@ -670,6 +779,7 @@ function App() {
           <span>⭐</span>
           Saved
         </button>
+
         <button
           className={activeTab === "add" ? "active" : ""}
           onClick={() => {
@@ -677,12 +787,14 @@ function App() {
               alert("Please login with Google to add a place.");
               return;
             }
+
             setActiveTab("add");
           }}
         >
           <span>➕</span>
           Add
         </button>
+
         <button
           className={activeTab === "profile" ? "active" : ""}
           onClick={() => setActiveTab("profile")}
@@ -866,7 +978,14 @@ function App() {
               ×
             </button>
 
-            <ProfileContent />
+            <ProfileContent
+              user={user}
+              profileName={profileName}
+              setProfileName={setProfileName}
+              saveProfileName={saveProfileName}
+              logout={logout}
+              loginWithGoogle={loginWithGoogle}
+            />
           </div>
         </div>
       )}
