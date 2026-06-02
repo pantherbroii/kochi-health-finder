@@ -105,13 +105,13 @@ function App() {
   };
 
   const loginWithGoogle = async () => {
-    try {
-      await signInWithPopup(auth, provider);
-    } catch (error) {
-      alert("Login failed. Please try again.");
-      console.error(error);
-    }
-  };
+  try {
+    await signInWithPopup(auth, provider);
+  } catch (error) {
+    console.error("Firebase Login Error:", error);
+    alert(error.code + " - " + error.message);
+  }
+};
 
   const logout = async () => {
     await signOut(auth);
