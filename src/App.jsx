@@ -11,7 +11,7 @@ import "leaflet/dist/leaflet.css";
 import data from "./data.json";
 import "./index.css";
 
-import { db } from "./firebase";
+import { db, auth, provider } from "./firebase";
 import {
   collection,
   addDoc,
@@ -19,6 +19,12 @@ import {
   doc,
   updateDoc,
 } from "firebase/firestore";
+
+import {
+  signInWithPopup,
+  signOut,
+  onAuthStateChanged,
+} from "firebase/auth";
 
 function LocationPicker({ pickingLocation, setSelectedLocation }) {
   useMapEvents({
@@ -58,6 +64,7 @@ function App() {
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [showEmergency, setShowEmergency] = useState(false);
   const [editingPlace, setEditingPlace] = useState(null);
+  const [user, setUser] = useState(null);
 
   const [newPlace, setNewPlace] = useState({
     name: "",
@@ -79,6 +86,12 @@ function App() {
 
   useEffect(() => {
     fetchFirebasePlaces();
+
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
+
+    return () => unsubscribe();
   }, []);
 
   const fetchFirebasePlaces = async () => {
@@ -89,6 +102,19 @@ function App() {
       ...docItem.data(),
     }));
     setFirebasePlaces(places);
+  };
+
+  const loginWithGoogle = async () => {
+    try {
+      await signInWithPopup(auth, provider);
+    } catch (error) {
+      alert("Login failed. Please try again.");
+      console.error(error);
+    }
+  };
+
+  const logout = async () => {
+    await signOut(auth);
   };
 
   const filteredData = allPlaces.filter((item) => {
@@ -152,6 +178,11 @@ function App() {
   const handleAddPlace = async (e) => {
     e.preventDefault();
 
+    if (!user) {
+      alert("Please login with Google to add a place.");
+      return;
+    }
+
     if (
       !newPlace.name ||
       !newPlace.area ||
@@ -166,6 +197,9 @@ function App() {
       ...newPlace,
       lat: selectedLocation.lat,
       lng: selectedLocation.lng,
+      addedBy: user.email,
+      addedByName: user.displayName,
+      createdAt: new Date().toISOString(),
     });
 
     alert("Place added successfully!");
@@ -188,6 +222,11 @@ function App() {
   };
 
   const startEdit = (item) => {
+    if (!user) {
+      alert("Please login with Google to edit hospital details.");
+      return;
+    }
+
     setEditingPlace({
       ...item,
       workingTime: item.workingTime || "",
@@ -197,6 +236,11 @@ function App() {
 
   const saveEdit = async (e) => {
     e.preventDefault();
+
+    if (!user) {
+      alert("Please login with Google to save edits.");
+      return;
+    }
 
     if (!editingPlace.name || !editingPlace.area || !editingPlace.address) {
       alert("Please fill name, area and address");
@@ -214,6 +258,9 @@ function App() {
       openNow: editingPlace.openNow,
       lat: editingPlace.lat,
       lng: editingPlace.lng,
+      editedBy: user.email,
+      editedByName: user.displayName,
+      updatedAt: new Date().toISOString(),
     };
 
     if (editingPlace.firebaseId) {
@@ -243,20 +290,51 @@ function App() {
             <h2>Kochi Health Finder</h2>
           </div>
 
-          <button
-            className="emergency-btn"
-            onClick={() => setShowEmergency(!showEmergency)}
-          >
-            🚑 Emergency
-          </button>
+          <div className="header-actions">
+            {user ? (
+              <div className="user-section">
+                <img
+                  src={user.photoURL}
+                  alt="User"
+                  className="user-avatar"
+                />
+                <button className="logout-btn" onClick={logout}>
+                  Logout
+                </button>
+              </div>
+            ) : (
+              <button className="login-btn" onClick={loginWithGoogle}>
+                Google Login
+              </button>
+            )}
+
+            <button
+              className="emergency-btn"
+              onClick={() => setShowEmergency(!showEmergency)}
+            >
+              🚑 Emergency
+            </button>
+          </div>
         </div>
 
         {showEmergency && (
           <div className="emergency-box">
             <h3>Emergency Contacts</h3>
-            <p>🚑 Ambulance: <a href="tel:108">108</a></p>
-            <p>🏥 Patient Transport: <a href="tel:102">102</a></p>
-            <p>🆘 National Emergency: <a href="tel:112">112</a></p>
+            <p>
+              🚑 Ambulance: <a href="tel:108">108</a>
+            </p>
+            <p>
+              🏥 Patient Transport: <a href="tel:102">102</a>
+            </p>
+            <p>
+              🆘 National Emergency: <a href="tel:112">112</a>
+            </p>
+          </div>
+        )}
+
+        {user && (
+          <div className="logged-in-box">
+            Signed in as <strong>{user.displayName}</strong>
           </div>
         )}
 
@@ -295,7 +373,13 @@ function App() {
 
         <button
           className="add-toggle-btn"
-          onClick={() => setShowForm(!showForm)}
+          onClick={() => {
+            if (!user) {
+              alert("Please login with Google to add a place.");
+              return;
+            }
+            setShowForm(!showForm);
+          }}
         >
           {showForm ? "Close Form" : "+ Add Missing Place"}
         </button>
@@ -409,7 +493,15 @@ function App() {
             <div className="card" key={item.id}>
               <div className="card-title-row">
                 <h3>{item.name}</h3>
-                <button className="edit-icon-btn" onClick={() => startEdit(item)}>
+                <button
+                  type="button"
+                  className="edit-icon-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    startEdit(item);
+                  }}
+                >
                   ✏️
                 </button>
               </div>
