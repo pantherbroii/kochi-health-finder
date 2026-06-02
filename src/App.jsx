@@ -102,8 +102,6 @@ function FacilityCard({ item, favorites, startEdit, openDirections, toggleFavori
 
 function AddPlaceForm({
   user,
-  newPlace,
-  setNewPlace,
   handleAddPlace,
   setPickingLocation,
   setMapExpanded,
@@ -111,31 +109,21 @@ function AddPlaceForm({
   pickingLocation,
   selectedLocation,
 }) {
-  const updateField = (field, value) => {
-    setNewPlace((previousPlace) => ({
-      ...previousPlace,
-      [field]: value,
-    }));
-  };
-
   return (
-    <form className="add-form app-card" onSubmit={handleAddPlace}>
+    <form className="add-form app-card" onSubmit={handleAddPlace} autoComplete="off">
       <h2>Add Healthcare Facility</h2>
 
       {!user && <p className="login-warning">Please login to add a place.</p>}
 
       <input
+        name="name"
         type="text"
         placeholder="Place name"
-        value={newPlace.name}
-        onChange={(e) => updateField("name", e.target.value)}
+        defaultValue=""
         autoComplete="off"
       />
 
-      <select
-        value={newPlace.category}
-        onChange={(e) => updateField("category", e.target.value)}
-      >
+      <select name="category" defaultValue="Hospital">
         <option>Hospital</option>
         <option>Clinic</option>
         <option>Dental Clinic</option>
@@ -147,42 +135,42 @@ function AddPlaceForm({
       </select>
 
       <input
+        name="area"
         type="text"
         placeholder="Area"
-        value={newPlace.area}
-        onChange={(e) => updateField("area", e.target.value)}
+        defaultValue=""
         autoComplete="off"
       />
 
       <input
+        name="address"
         type="text"
         placeholder="Address"
-        value={newPlace.address}
-        onChange={(e) => updateField("address", e.target.value)}
+        defaultValue=""
         autoComplete="off"
       />
 
       <input
+        name="phone"
         type="text"
         placeholder="Phone number"
-        value={newPlace.phone}
-        onChange={(e) => updateField("phone", e.target.value)}
+        defaultValue=""
         autoComplete="off"
       />
 
       <input
+        name="workingTime"
         type="text"
         placeholder="Working time"
-        value={newPlace.workingTime}
-        onChange={(e) => updateField("workingTime", e.target.value)}
+        defaultValue=""
         autoComplete="off"
       />
 
       <input
+        name="details"
         type="text"
         placeholder="Other details"
-        value={newPlace.details}
-        onChange={(e) => updateField("details", e.target.value)}
+        defaultValue=""
         autoComplete="off"
       />
 
@@ -457,10 +445,23 @@ function App() {
       return;
     }
 
+    const formData = new FormData(e.currentTarget);
+
+    const placeData = {
+      name: String(formData.get("name") || "").trim(),
+      category: String(formData.get("category") || "Hospital"),
+      area: String(formData.get("area") || "").trim(),
+      address: String(formData.get("address") || "").trim(),
+      phone: String(formData.get("phone") || "").trim(),
+      workingTime: String(formData.get("workingTime") || "").trim(),
+      details: String(formData.get("details") || "").trim(),
+      openNow: true,
+    };
+
     if (
-      !newPlace.name ||
-      !newPlace.area ||
-      !newPlace.address ||
+      !placeData.name ||
+      !placeData.area ||
+      !placeData.address ||
       !selectedLocation
     ) {
       alert("Please fill name, area, address and select location");
@@ -468,7 +469,7 @@ function App() {
     }
 
     await addDoc(collection(db, "places"), {
-      ...newPlace,
+      ...placeData,
       lat: selectedLocation.lat,
       lng: selectedLocation.lng,
       addedBy: user.email,
@@ -477,6 +478,8 @@ function App() {
     });
 
     alert("Place added successfully!");
+
+    e.currentTarget.reset();
 
     setNewPlace({
       name: "",
