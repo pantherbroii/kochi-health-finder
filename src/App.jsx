@@ -619,9 +619,9 @@ function App() {
             attribution="© OpenStreetMap contributors"
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-
-          {filteredData.map((item) => (
-            <Marker key={item.id} position={[item.lat, item.lng]}>
+{mapExpanded &&
+  filteredData.map((item) => (
+    <Marker key={item.id} position={[item.lat, item.lng]}>
               <Popup>
                 <h3>{item.name}</h3>
                 <p>{item.address}</p>
