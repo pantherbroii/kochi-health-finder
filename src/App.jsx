@@ -67,6 +67,7 @@ function App() {
   const [editingPlace, setEditingPlace] = useState(null);
   const [user, setUser] = useState(null);
   const [showProfile, setShowProfile] = useState(false);
+  const [mapExpanded, setMapExpanded] = useState(false);
   const [profileName, setProfileName] = useState("");
 
   const [newPlace, setNewPlace] = useState({
@@ -580,7 +581,28 @@ function App() {
         </div>
       </div>
 
-      <div className="map-section">
+      <div
+  className={`map-section ${mapExpanded ? "map-expanded" : ""}`}
+  onClick={() => !mapExpanded && setMapExpanded(true)}
+>
+  {!mapExpanded && (
+    <div className="mini-map-label">
+      🗺️ Open Map
+    </div>
+  )}
+
+  {mapExpanded && (
+    <button
+      type="button"
+      className="close-map-btn"
+      onClick={(e) => {
+        e.stopPropagation();
+        setMapExpanded(false);
+      }}
+    >
+      ✕ Close
+    </button>
+  )}
         <MapContainer
           center={[10.0159, 76.3419]}
           zoom={12}
