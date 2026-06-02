@@ -303,9 +303,9 @@ function App() {
                 </button>
               </div>
             ) : (
-              <button className="login-btn" onClick={loginWithGoogle}>
-                Google Login
-              </button>
+        <button onClick={loginWithGoogle} className="login-btn">
+  👤 Login
+</button>
             )}
 
             <button
