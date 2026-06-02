@@ -12,7 +12,13 @@ import data from "./data.json";
 import "./index.css";
 
 import { db } from "./firebase";
-import { collection, addDoc, getDocs } from "firebase/firestore";
+import {
+  collection,
+  addDoc,
+  getDocs,
+  doc,
+  updateDoc,
+} from "firebase/firestore";
 
 function LocationPicker({ pickingLocation, setSelectedLocation }) {
   useMapEvents({
@@ -51,6 +57,7 @@ function App() {
   const [pickingLocation, setPickingLocation] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [showEmergency, setShowEmergency] = useState(false);
+  const [editingPlace, setEditingPlace] = useState(null);
 
   const [newPlace, setNewPlace] = useState({
     name: "",
@@ -58,10 +65,17 @@ function App() {
     area: "",
     address: "",
     phone: "",
+    workingTime: "",
+    details: "",
     openNow: true,
   });
 
-  const allPlaces = [...data, ...firebasePlaces];
+  const localPlaces = data.filter(
+    (localItem) =>
+      !firebasePlaces.some((fbItem) => fbItem.originalLocalId === localItem.id)
+  );
+
+  const allPlaces = [...localPlaces, ...firebasePlaces];
 
   useEffect(() => {
     fetchFirebasePlaces();
@@ -69,9 +83,10 @@ function App() {
 
   const fetchFirebasePlaces = async () => {
     const querySnapshot = await getDocs(collection(db, "places"));
-    const places = querySnapshot.docs.map((doc) => ({
-      id: doc.id,
-      ...doc.data(),
+    const places = querySnapshot.docs.map((docItem) => ({
+      id: docItem.id,
+      firebaseId: docItem.id,
+      ...docItem.data(),
     }));
     setFirebasePlaces(places);
   };
@@ -161,12 +176,57 @@ function App() {
       area: "",
       address: "",
       phone: "",
+      workingTime: "",
+      details: "",
       openNow: true,
     });
 
     setSelectedLocation(null);
     setPickingLocation(false);
     setShowForm(false);
+    fetchFirebasePlaces();
+  };
+
+  const startEdit = (item) => {
+    setEditingPlace({
+      ...item,
+      workingTime: item.workingTime || "",
+      details: item.details || "",
+    });
+  };
+
+  const saveEdit = async (e) => {
+    e.preventDefault();
+
+    if (!editingPlace.name || !editingPlace.area || !editingPlace.address) {
+      alert("Please fill name, area and address");
+      return;
+    }
+
+    const updatedData = {
+      name: editingPlace.name,
+      category: editingPlace.category,
+      area: editingPlace.area,
+      address: editingPlace.address,
+      phone: editingPlace.phone || "",
+      workingTime: editingPlace.workingTime || "",
+      details: editingPlace.details || "",
+      openNow: editingPlace.openNow,
+      lat: editingPlace.lat,
+      lng: editingPlace.lng,
+    };
+
+    if (editingPlace.firebaseId) {
+      await updateDoc(doc(db, "places", editingPlace.firebaseId), updatedData);
+    } else {
+      await addDoc(collection(db, "places"), {
+        ...updatedData,
+        originalLocalId: editingPlace.id,
+      });
+    }
+
+    alert("Details updated successfully!");
+    setEditingPlace(null);
     fetchFirebasePlaces();
   };
 
@@ -194,21 +254,9 @@ function App() {
         {showEmergency && (
           <div className="emergency-box">
             <h3>Emergency Contacts</h3>
-
-            <p>
-              🚑 Ambulance:{" "}
-              <a href="tel:108">108</a>
-            </p>
-
-            <p>
-              🏥 Patient Transport:{" "}
-              <a href="tel:102">102</a>
-            </p>
-
-            <p>
-              🆘 National Emergency:{" "}
-              <a href="tel:112">112</a>
-            </p>
+            <p>🚑 Ambulance: <a href="tel:108">108</a></p>
+            <p>🏥 Patient Transport: <a href="tel:102">102</a></p>
+            <p>🆘 National Emergency: <a href="tel:112">112</a></p>
           </div>
         )}
 
@@ -306,6 +354,24 @@ function App() {
               }
             />
 
+            <input
+              type="text"
+              placeholder="Working time"
+              value={newPlace.workingTime}
+              onChange={(e) =>
+                setNewPlace({ ...newPlace, workingTime: e.target.value })
+              }
+            />
+
+            <input
+              type="text"
+              placeholder="Other details"
+              value={newPlace.details}
+              onChange={(e) =>
+                setNewPlace({ ...newPlace, details: e.target.value })
+              }
+            />
+
             <button
               type="button"
               className="pick-location-btn"
@@ -323,9 +389,7 @@ function App() {
             </button>
 
             {pickingLocation && (
-              <p className="pick-help">
-                Now click the exact place on the map.
-              </p>
+              <p className="pick-help">Now click the exact place on the map.</p>
             )}
 
             {selectedLocation && (
@@ -343,10 +407,18 @@ function App() {
         <div className="list">
           {filteredData.map((item) => (
             <div className="card" key={item.id}>
-              <h3>{item.name}</h3>
+              <div className="card-title-row">
+                <h3>{item.name}</h3>
+                <button className="edit-icon-btn" onClick={() => startEdit(item)}>
+                  ✏️
+                </button>
+              </div>
+
               <p>📍 {item.area}</p>
               <p>🏥 {item.category}</p>
               <p>📞 {item.phone || "N/A"}</p>
+              <p>🕒 {item.workingTime || "Working time not added"}</p>
+              <p>ℹ️ {item.details || "No extra details added"}</p>
               <p>{item.openNow ? "✅ Open Now" : "🔴 Closed"}</p>
 
               <button
@@ -394,6 +466,8 @@ function App() {
                 <p>{item.address}</p>
                 <p>🏥 {item.category}</p>
                 <p>📞 {item.phone || "N/A"}</p>
+                <p>🕒 {item.workingTime || "Working time not added"}</p>
+                <p>ℹ️ {item.details || "No extra details added"}</p>
 
                 <button
                   className="direction-btn"
@@ -414,6 +488,112 @@ function App() {
           )}
         </MapContainer>
       </div>
+
+      {editingPlace && (
+        <div className="edit-overlay">
+          <form className="edit-box" onSubmit={saveEdit}>
+            <h2>Edit Hospital Details</h2>
+
+            <input
+              type="text"
+              value={editingPlace.name}
+              onChange={(e) =>
+                setEditingPlace({ ...editingPlace, name: e.target.value })
+              }
+              placeholder="Place name"
+            />
+
+            <select
+              value={editingPlace.category}
+              onChange={(e) =>
+                setEditingPlace({ ...editingPlace, category: e.target.value })
+              }
+            >
+              <option>Hospital</option>
+              <option>Clinic</option>
+              <option>Dental Clinic</option>
+              <option>Skin Clinic</option>
+              <option>Eye Hospital</option>
+              <option>Pharmacy</option>
+              <option>Lab</option>
+              <option>Ambulance</option>
+            </select>
+
+            <input
+              type="text"
+              value={editingPlace.area}
+              onChange={(e) =>
+                setEditingPlace({ ...editingPlace, area: e.target.value })
+              }
+              placeholder="Area"
+            />
+
+            <input
+              type="text"
+              value={editingPlace.address}
+              onChange={(e) =>
+                setEditingPlace({ ...editingPlace, address: e.target.value })
+              }
+              placeholder="Address"
+            />
+
+            <input
+              type="text"
+              value={editingPlace.phone || ""}
+              onChange={(e) =>
+                setEditingPlace({ ...editingPlace, phone: e.target.value })
+              }
+              placeholder="Phone number"
+            />
+
+            <input
+              type="text"
+              value={editingPlace.workingTime || ""}
+              onChange={(e) =>
+                setEditingPlace({
+                  ...editingPlace,
+                  workingTime: e.target.value,
+                })
+              }
+              placeholder="Working time"
+            />
+
+            <textarea
+              value={editingPlace.details || ""}
+              onChange={(e) =>
+                setEditingPlace({ ...editingPlace, details: e.target.value })
+              }
+              placeholder="Other details"
+            />
+
+            <label className="checkbox-row">
+              <input
+                type="checkbox"
+                checked={editingPlace.openNow}
+                onChange={(e) =>
+                  setEditingPlace({
+                    ...editingPlace,
+                    openNow: e.target.checked,
+                  })
+                }
+              />
+              Open Now
+            </label>
+
+            <button type="submit" className="submit-btn">
+              Save Changes
+            </button>
+
+            <button
+              type="button"
+              className="cancel-btn"
+              onClick={() => setEditingPlace(null)}
+            >
+              Cancel
+            </button>
+          </form>
+        </div>
+      )}
     </div>
   );
 }
