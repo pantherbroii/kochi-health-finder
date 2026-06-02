@@ -581,74 +581,73 @@ function App() {
         </div>
       </div>
 
-      <div
-  className={`map-section ${mapExpanded ? "map-expanded" : ""}`}
-  onClick={() => !mapExpanded && setMapExpanded(true)}
->
-  {!mapExpanded && (
-    <div className="mini-map-label">
-      🗺️ Open Map
-    </div>
-  )}
-
-  {mapExpanded && (
-    <button
-      type="button"
-      className="close-map-btn"
-      onClick={(e) => {
-        e.stopPropagation();
-        setMapExpanded(false);
-      }}
-    >
-      ✕ Close
-    </button>
-  )}
-        <MapContainer
-          center={[10.0159, 76.3419]}
-          zoom={12}
-          style={{ height: "100vh", width: "100%" }}
+      <div className="map-preview">
+        <button
+          type="button"
+          className="open-map-btn"
+          onClick={() => setMapExpanded(true)}
         >
-          <LocationPicker
-            pickingLocation={pickingLocation}
-            setSelectedLocation={setSelectedLocation}
-          />
-
-          <MoveMapToLocation selectedLocation={selectedLocation} />
-
-          <TileLayer
-            attribution="© OpenStreetMap contributors"
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-{mapExpanded &&
-  filteredData.map((item) => (
-    <Marker key={item.id} position={[item.lat, item.lng]}>
-              <Popup>
-                <h3>{item.name}</h3>
-                <p>{item.address}</p>
-                <p>🏥 {item.category}</p>
-                <p>📞 {item.phone || "N/A"}</p>
-                <p>🕒 {item.workingTime || "Working time not added"}</p>
-                <p>ℹ️ {item.details || "No extra details added"}</p>
-
-                <button
-                  className="direction-btn"
-                  onClick={() => openDirections(item)}
-                >
-                  Get Directions
-                </button>
-              </Popup>
-            </Marker>
-          ))}
-
-          {selectedLocation && (
-            <Marker position={[selectedLocation.lat, selectedLocation.lng]}>
-              <Popup>
-                <b>Selected location</b>
-              </Popup>
-            </Marker>
-          )}
-        </MapContainer>
+          🗺️ View Map
+        </button>
       </div>
+
+      {mapExpanded && (
+        <div className="map-modal">
+          <button
+            type="button"
+            className="close-map-btn"
+            onClick={() => setMapExpanded(false)}
+          >
+            ✕ Close
+          </button>
+
+          <MapContainer
+            center={[10.0159, 76.3419]}
+            zoom={11}
+            style={{ height: "100%", width: "100%" }}
+          >
+            <LocationPicker
+              pickingLocation={pickingLocation}
+              setSelectedLocation={setSelectedLocation}
+            />
+
+            <MoveMapToLocation selectedLocation={selectedLocation} />
+
+            <TileLayer
+              attribution="© OpenStreetMap contributors"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+
+            {filteredData.map((item) => (
+              <Marker key={item.id} position={[item.lat, item.lng]}>
+                <Popup>
+                  <h3>{item.name}</h3>
+                  <p>{item.address}</p>
+                  <p>🏥 {item.category}</p>
+                  <p>📞 {item.phone || "N/A"}</p>
+                  <p>🕒 {item.workingTime || "Working time not added"}</p>
+                  <p>ℹ️ {item.details || "No extra details added"}</p>
+
+                  <button
+                    className="direction-btn"
+                    onClick={() => openDirections(item)}
+                  >
+                    Get Directions
+                  </button>
+                </Popup>
+              </Marker>
+            ))}
+
+            {selectedLocation && (
+              <Marker position={[selectedLocation.lat, selectedLocation.lng]}>
+                <Popup>
+                  <b>Selected location</b>
+                </Popup>
+              </Marker>
+            )}
+          </MapContainer>
+        </div>
+      )}
 
       {editingPlace && (
         <div className="edit-overlay">
