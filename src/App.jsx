@@ -24,6 +24,7 @@ import {
   signInWithPopup,
   signOut,
   onAuthStateChanged,
+  updateProfile,
 } from "firebase/auth";
 
 function LocationPicker({ pickingLocation, setSelectedLocation }) {
@@ -65,6 +66,8 @@ function App() {
   const [showEmergency, setShowEmergency] = useState(false);
   const [editingPlace, setEditingPlace] = useState(null);
   const [user, setUser] = useState(null);
+  const [showProfile, setShowProfile] = useState(false);
+  const [profileName, setProfileName] = useState("");
 
   const [newPlace, setNewPlace] = useState({
     name: "",
@@ -89,6 +92,16 @@ function App() {
 
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
+
+      if (currentUser) {
+        setProfileName(currentUser.displayName || "");
+        const savedFavorites =
+          JSON.parse(localStorage.getItem(`favorites_${currentUser.uid}`)) || [];
+        setFavorites(savedFavorites);
+      } else {
+        setFavorites([]);
+        setShowProfile(false);
+      }
     });
 
     return () => unsubscribe();
@@ -105,16 +118,32 @@ function App() {
   };
 
   const loginWithGoogle = async () => {
-  try {
-    await signInWithPopup(auth, provider);
-  } catch (error) {
-    console.error("Firebase Login Error:", error);
-    alert(error.code + " - " + error.message);
-  }
-};
+    try {
+      await signInWithPopup(auth, provider);
+    } catch (error) {
+      console.error("Firebase Login Error:", error);
+      alert(error.code + " - " + error.message);
+    }
+  };
 
   const logout = async () => {
     await signOut(auth);
+  };
+
+  const saveProfileName = async () => {
+    if (!user) return;
+
+    if (!profileName.trim()) {
+      alert("Please enter a valid name");
+      return;
+    }
+
+    await updateProfile(user, {
+      displayName: profileName,
+    });
+
+    setUser({ ...auth.currentUser });
+    alert("Profile name updated!");
   };
 
   const filteredData = allPlaces.filter((item) => {
@@ -130,6 +159,8 @@ function App() {
     return matchesSearch && matchesCategory && matchesArea;
   });
 
+  const favoritePlaces = allPlaces.filter((item) => favorites.includes(item.id));
+
   const categories = [
     "All Categories",
     ...new Set(allPlaces.map((item) => item.category)),
@@ -138,13 +169,24 @@ function App() {
   const areas = ["All", ...new Set(allPlaces.map((item) => item.area))];
 
   const toggleFavorite = (item) => {
-    const exists = favorites.find((fav) => fav.id === item.id);
-
-    if (exists) {
-      setFavorites(favorites.filter((fav) => fav.id !== item.id));
-    } else {
-      setFavorites([...favorites, item]);
+    if (!user) {
+      alert("Please login to save favorite places.");
+      return;
     }
+
+    let updatedFavorites;
+
+    if (favorites.includes(item.id)) {
+      updatedFavorites = favorites.filter((favId) => favId !== item.id);
+    } else {
+      updatedFavorites = [...favorites, item.id];
+    }
+
+    setFavorites(updatedFavorites);
+    localStorage.setItem(
+      `favorites_${user.uid}`,
+      JSON.stringify(updatedFavorites)
+    );
   };
 
   const openDirections = (item) => {
@@ -293,19 +335,26 @@ function App() {
           <div className="header-actions">
             {user ? (
               <div className="user-section">
-                <img
-                  src={user.photoURL}
-                  alt="User"
-                  className="user-avatar"
-                />
+                <button
+                  type="button"
+                  className="profile-icon-btn"
+                  onClick={() => setShowProfile(true)}
+                >
+                  <img
+                    src={user.photoURL}
+                    alt="User"
+                    className="user-avatar"
+                  />
+                </button>
+
                 <button className="logout-btn" onClick={logout}>
                   Logout
                 </button>
               </div>
             ) : (
-        <button onClick={loginWithGoogle} className="login-btn">
-  👤 Login
-</button>
+              <button className="login-btn" onClick={loginWithGoogle}>
+                👤 Login
+              </button>
             )}
 
             <button
@@ -524,9 +573,7 @@ function App() {
                 className="favorite-btn"
                 onClick={() => toggleFavorite(item)}
               >
-                {favorites.find((fav) => fav.id === item.id)
-                  ? "★ Saved"
-                  : "☆ Save Favorite"}
+                {favorites.includes(item.id) ? "★ Saved" : "☆ Save Favorite"}
               </button>
             </div>
           ))}
@@ -684,6 +731,60 @@ function App() {
               Cancel
             </button>
           </form>
+        </div>
+      )}
+
+      {showProfile && user && (
+        <div className="profile-overlay">
+          <div className="profile-box">
+            <button
+              className="profile-close-btn"
+              onClick={() => setShowProfile(false)}
+            >
+              ×
+            </button>
+
+            <div className="profile-header">
+              <img src={user.photoURL} alt="User" className="profile-photo" />
+              <h2>My Profile</h2>
+              <p>{user.email}</p>
+            </div>
+
+            <label className="profile-label">Change Name</label>
+            <input
+              type="text"
+              value={profileName}
+              onChange={(e) => setProfileName(e.target.value)}
+              className="profile-input"
+              placeholder="Enter your name"
+            />
+
+            <button className="profile-save-btn" onClick={saveProfileName}>
+              Save Name
+            </button>
+
+            <h3 className="favorites-title">Favorite Places</h3>
+
+            {favoritePlaces.length === 0 ? (
+              <p className="no-favorites">No favorite places saved yet.</p>
+            ) : (
+              <div className="profile-favorites-list">
+                {favoritePlaces.map((place) => (
+                  <div className="profile-favorite-card" key={place.id}>
+                    <strong>{place.name}</strong>
+                    <p>📍 {place.area}</p>
+                    <p>🏥 {place.category}</p>
+                    <button
+                      className="direction-btn"
+                      onClick={() => openDirections(place)}
+                    >
+                      Get Directions
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       )}
     </div>
