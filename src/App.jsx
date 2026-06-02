@@ -581,15 +581,20 @@ function App() {
         </div>
       </div>
 
-      <div className="map-preview">
-        <button
-          type="button"
-          className="open-map-btn"
-          onClick={() => setMapExpanded(true)}
-        >
-          🗺️ View Map
-        </button>
-      </div>
+    <div
+  className="map-preview"
+  onClick={() => setMapExpanded(true)}
+>
+  <img
+    src="https://maps.geoapify.com/v1/staticmap?style=osm-carto"
+    alt="Map Preview"
+    className="map-preview-image"
+  />
+
+  <div className="map-preview-overlay">
+    🗺️ Tap to Open Map
+  </div>
+</div>
 
       {mapExpanded && (
         <div className="map-modal">
