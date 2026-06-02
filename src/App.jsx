@@ -642,9 +642,9 @@ function App() {
           </>
         )}
 
-        {activeTab === "add" && <AddPlaceForm />}
+        {activeTab === "add" && AddPlaceForm()}
 
-        {activeTab === "profile" && <ProfileContent />}
+        {activeTab === "profile" && ProfileContent()}
       </main>
 
       <button
